@@ -1,4 +1,6 @@
 import React from 'react';
+import QuickBook from './QuickBook'
+import {Row, Col} from 'antd'
 
 const Banner = () => {
 
@@ -14,12 +16,12 @@ const Banner = () => {
 
             <div className="container">
                 <img src={require("../../../assets/images/shapes/banner-shapes-1-3.png")} alt="" className="banner-one__shape-moc-1"/>
-                <img src={require("../../../assets/images/mocs/banner-moc-1-1.png")} alt="" className="banner-one__moc" />
+                <QuickBook />
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="banner-one__content">
-                            <p className="banner-one__tag-line">Welcome to SEO Business <a href="#">free trial</a></p>
-                            <h3>We help achieve <br/> biggest goals</h3>
+                            <p className="banner-one__tag-line">Welcome to Gfx Facilities <a href="#">Hire Now</a></p>
+                            <h3>We help <br/> Make It Clean</h3>
                             <p>We are committed to providing our customers with exceptional service <br/> while offering our
                             employees
                             the best training.</p>

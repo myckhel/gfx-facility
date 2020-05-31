@@ -1,1 +1,445 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{130:function(e,a){e.exports="/images/blog-d-1.jpg?a5ea1ee21a6d1aebd8935306050d57c7"},131:function(e,a){e.exports="/images/author-1-1.jpg?a78379965cd158f6e6348de77b9c634c"},132:function(e,a){e.exports="/images/comment-1-1.jpg?3136fe7ffa639e6f7faca6cd84b12dee"},133:function(e,a){e.exports="/images/comment-1-2.jpg?3136fe7ffa639e6f7faca6cd84b12dee"},134:function(e,a){e.exports="/images/lp-1-1.jpg?b261188fdc6df61a3807f75307f391b7"},135:function(e,a){e.exports="/images/lp-1-2.jpg?b261188fdc6df61a3807f75307f391b7"},136:function(e,a){e.exports="/images/lp-1-3.jpg?b261188fdc6df61a3807f75307f391b7"},257:function(e,a,t){"use strict";t.r(a);var l=t(0),n=t.n(l),s=t(25),r=t(26),m=function(){return n.a.createElement("section",{className:"blog-details"},n.a.createElement("div",{className:"container"},n.a.createElement("div",{className:"row"},n.a.createElement("div",{className:"col-lg-8"},n.a.createElement("div",{className:"blog-details__content"},n.a.createElement("div",{className:"blog-details__image"},n.a.createElement("img",{src:t(130),alt:""})),n.a.createElement("ul",{className:"blog-one__meta list-unstyled"},n.a.createElement("li",null,n.a.createElement("a",{href:"#"},n.a.createElement("i",{className:"far fa-clock"})," 20 Feb")),n.a.createElement("li",null,n.a.createElement("a",{href:"#"},n.a.createElement("i",{className:"far fa-comments"})," 2 Comments"))),n.a.createElement("h3",null,"Launch New Mobile App Marketing Pitfalls To Avoid"),n.a.createElement("p",null,"There are many variations of passages of available but majority have alteration in some by inject humour or random words. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."),n.a.createElement("p",null,"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.")),n.a.createElement("div",{className:"blog-details__bottom"},n.a.createElement("p",{className:"blog-details__tags"},n.a.createElement("span",null,"Tags:"),n.a.createElement("a",{href:"#"},"Tour,"),n.a.createElement("a",{href:"#"},"Travel,"),n.a.createElement("a",{href:"#"},"beach")),n.a.createElement("div",{className:"blog-details__social site-footer__social"},n.a.createElement("a",{className:"fab fa-facebook-f",href:"#"}),n.a.createElement("a",{className:"fab fa-twitter",href:"#"}),n.a.createElement("a",{className:"fab fa-instagram",href:"#"}),n.a.createElement("a",{className:"fab fa-pinterest-p",href:"#"}))),n.a.createElement("div",{className:"author-one"},n.a.createElement("div",{className:"author-one__image"},n.a.createElement("img",{src:t(131),alt:""})),n.a.createElement("div",{className:"author-one__content"},n.a.createElement("h3",null,"Christine Eve"),n.a.createElement("p",null,"It has survived not only five centuries, but also the leap into electronic typesetting, remaining unchanged. It was popularised in the sheets containing."))),n.a.createElement("div",{className:"comment-one"},n.a.createElement("h3",{className:"comment-one__title"},"2 Comments"),n.a.createElement("div",{className:"comment-one__single"},n.a.createElement("div",{className:"comment-one__image"},n.a.createElement("img",{src:t(132),alt:""})),n.a.createElement("div",{className:"comment-one__content"},n.a.createElement("h3",null,"Roxie Harrison"),n.a.createElement("div",{className:"comment-one__date"},"20 Feb, 2020 ",n.a.createElement("span",null,".")," 4:00 pm"),n.a.createElement("p",null,"Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus."),n.a.createElement("a",{href:"#",className:"thm-btn comment-one__btn"},"Reply"))),n.a.createElement("div",{className:"comment-one__single"},n.a.createElement("div",{className:"comment-one__image"},n.a.createElement("img",{src:t(133),alt:""})),n.a.createElement("div",{className:"comment-one__content"},n.a.createElement("h3",null,"Jorge Glover"),n.a.createElement("div",{className:"comment-one__date"},"20 Feb, 2020 ",n.a.createElement("span",null,".")," 4:00 pm"),n.a.createElement("p",null,"Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus."),n.a.createElement("a",{href:"#",className:"thm-btn comment-one__btn"},"Reply")))),n.a.createElement("div",{className:"comment-form"},n.a.createElement("h3",{className:"comment-form__title"},"Leave a Comment"),n.a.createElement("form",{action:"#",className:"contact-one__form contact-form-validated",noValidate:"novalidate"},n.a.createElement("div",{className:"row"},n.a.createElement("div",{className:"col-md-6"},n.a.createElement("input",{type:"text",name:"name",placeholder:"Name"})),n.a.createElement("div",{className:"col-md-6"},n.a.createElement("input",{type:"text",name:"email",placeholder:"Email"})),n.a.createElement("div",{className:"col-md-6"},n.a.createElement("input",{type:"text",name:"website",placeholder:"Website"})),n.a.createElement("div",{className:"col-md-6"},n.a.createElement("input",{type:"text",name:"subject",placeholder:"Subject"})),n.a.createElement("div",{className:"col-md-12"},n.a.createElement("textarea",{name:"message",placeholder:"Message"}),n.a.createElement("button",{type:"submit",className:"thm-btn contact-one__form-btn"},"Post Comment")))))),n.a.createElement("div",{className:"col-lg-4"},n.a.createElement("div",{className:"sidebar"},n.a.createElement("div",{className:"sidebar-single sidebar__search"},n.a.createElement("form",{action:"#",className:"sidebar__search-form"},n.a.createElement("input",{type:"text",placeholder:"Search here"}),n.a.createElement("button",{type:"submit"},n.a.createElement("i",{className:"fa fa-search"})))),n.a.createElement("div",{className:"sidebar-single sidebar__post"},n.a.createElement("h3",{className:"sidebar__title"},"Latest Posts"),n.a.createElement("div",{className:"sidebar__post-single"},n.a.createElement("img",{src:t(134),alt:""}),n.a.createElement("h3",null,n.a.createElement("a",{href:"/blog-details"},"Pre launch Mobile App Marketing Pitfalls"))),n.a.createElement("div",{className:"sidebar__post-single"},n.a.createElement("img",{src:t(135),alt:""}),n.a.createElement("h3",null,n.a.createElement("a",{href:"/blog-details"},"Pre launch Mobile App Marketing Pitfalls"))),n.a.createElement("div",{className:"sidebar__post-single"},n.a.createElement("img",{src:t(136),alt:""}),n.a.createElement("h3",null,n.a.createElement("a",{href:"/blog-details"},"Pre launch Mobile App Marketing Pitfalls")))),n.a.createElement("div",{className:"sidebar-single sidebar__cat"},n.a.createElement("h3",{className:"sidebar__title"},"Categories"),n.a.createElement("ul",{className:"list-unstyled sidebar__cat-list"},n.a.createElement("li",null,n.a.createElement("a",{href:"#"},"Business")),n.a.createElement("li",null,n.a.createElement("a",{href:"#"},"Introductions")),n.a.createElement("li",null,n.a.createElement("a",{href:"#"},"One Page Template")),n.a.createElement("li",null,n.a.createElement("a",{href:"#"},"Parallax Effects")),n.a.createElement("li",null,n.a.createElement("a",{href:"#"},"New Technologies")),n.a.createElement("li",null,n.a.createElement("a",{href:"#"},"Video Backgrounds")))),n.a.createElement("div",{className:"sidebar-single sidebar__tags"},n.a.createElement("h3",{className:"sidebar__title"},"Tags"),n.a.createElement("div",{className:"sidebar__tags-list"},n.a.createElement("a",{href:"#"},"Business,"),n.a.createElement("a",{href:"#"},"Agency,"),n.a.createElement("a",{href:"#"},"Technology,"),n.a.createElement("a",{href:"#"},"Parallax"))))))))},c=t(15);a.default=function(){return n.a.createElement(s.a,null,n.a.createElement(r.a,{title:"Blog Details"}),n.a.createElement(m,null),n.a.createElement(c.a,null))}}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[3],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Views/Home/style.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Views/Home/style.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../../assets/images/background/inner-banner-bg.png */ "./resources/js/assets/images/background/inner-banner-bg.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+exports.push([module.i, ".thm-breadcrumb {\n  margin: 0;\n  display: flex;\n  }\n.list-unstyled li {\nmargin-left: 6px;\n}\n.thm-breadcrumb li a {\n  color: white;\n  font-weight: 600;\n}\n#page-header-secion {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/background/inner-banner-bg.png":
+/*!*******************************************************************!*\
+  !*** ./resources/js/assets/images/background/inner-banner-bg.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/inner-banner-bg.png?67f456f84de9af4d1e3682f1c160368c";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-1-1.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-1-1.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-1-1.jpg?51f5578a06ce8094c8a621ea8dac0c70";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-1-2.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-1-2.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-1-2.jpg?51f5578a06ce8094c8a621ea8dac0c70";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-1-3.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-1-3.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-1-3.jpg?51f5578a06ce8094c8a621ea8dac0c70";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-1-4.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-1-4.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-1-4.jpg?51f5578a06ce8094c8a621ea8dac0c70";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-1-5.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-1-5.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-1-5.jpg?51f5578a06ce8094c8a621ea8dac0c70";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-1-6.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-1-6.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-1-6.jpg?51f5578a06ce8094c8a621ea8dac0c70";
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/Blog.js":
+/*!****************************************************!*\
+  !*** ./resources/js/components/Views/Home/Blog.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+
+var Blog = function Blog() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "blog-one blog-one__home blog-one__grid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-1-1.jpg */ "./resources/js/assets/images/blog/blog-1-1.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Pre and post launch mobile app marketing pitfalls to avoid"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-one__link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "zimed-icon-right-arrow"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-1-2.jpg */ "./resources/js/assets/images/blog/blog-1-2.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It is all exactly as i said, but i don't like it let's unpack that"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-one__link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "zimed-icon-right-arrow"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-1-3.jpg */ "./resources/js/assets/images/blog/blog-1-3.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I just wanted to give you a heads-up, or this you feel you would"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-one__link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "zimed-icon-right-arrow"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-1-4.jpg */ "./resources/js/assets/images/blog/blog-1-4.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Paddle on both sides cross functional teams enable out"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-one__link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "zimed-icon-right-arrow"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-1-5.jpg */ "./resources/js/assets/images/blog/blog-1-5.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "A loss a day will keep you focus run it up the flagpole"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-one__link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "zimed-icon-right-arrow"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-1-6.jpg */ "./resources/js/assets/images/blog/blog-1-6.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We've got to manage that low hanging fruit here to wash your"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-one__link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "zimed-icon-right-arrow"
+  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "post-pagination"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-angle-left"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    className: "active"
+  }, "2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-angle-right"
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Blog);
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/PageHeader.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/Views/Home/PageHeader.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./resources/js/components/Views/Home/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var PageHeader = function PageHeader(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "page-header-secion",
+    className: "page-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "list-unstyled thm-breadcrumb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/"
+  }, "Home /")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "active"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, props.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "inner-banner__title"
+  }, props.title))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PageHeader);
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/style.css":
+/*!******************************************************!*\
+  !*** ./resources/js/components/Views/Home/style.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Views/Home/style.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Layout.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Views/Layout.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Home_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home/Navbar */ "./resources/js/components/Views/Home/Navbar.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "page-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), props.children);
+});
+
+/***/ }),
+
+/***/ "./resources/js/views/Blog/blog.js":
+/*!*****************************************!*\
+  !*** ./resources/js/views/Blog/blog.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Views_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Views/Layout */ "./resources/js/components/Views/Layout.js");
+/* harmony import */ var _components_Views_Home_Blog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Views/Home/Blog */ "./resources/js/components/Views/Home/Blog.js");
+/* harmony import */ var _components_Views_Home_PageHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Views/Home/PageHeader */ "./resources/js/components/Views/Home/PageHeader.js");
+/* harmony import */ var _components_Views_Home_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Views/Home/Footer */ "./resources/js/components/Views/Home/Footer.js");
+
+
+
+
+
+
+var BlogPage = function BlogPage() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    pageTitle: "Zimed | Blog"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_PageHeader__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Blog"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_Blog__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BlogPage);
+
+/***/ })
+
+}]);

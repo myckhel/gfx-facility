@@ -32,7 +32,7 @@ export default class Counter extends Component {
                                 <h3 className="counter">
                                     <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 7842 : 0} /></VisibilitySensor>
                                 </h3>
-                                <p>Downloads</p>
+                                <p>Bookings</p>
                             </div>
 
                         </div>
@@ -42,7 +42,7 @@ export default class Counter extends Component {
                                 <h3 className="counter">
                                     <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 6020 : 0} /></VisibilitySensor>
                                 </h3>
-                                <p>Likes</p>
+                                <p>Customers</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">

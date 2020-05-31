@@ -9,9 +9,9 @@ const CallToAction = () => {
                 <div className="cta-one__circle-2"></div>
                 <div className="cta-one__circle-3"></div>
                 <div className="cta-one__content text-center">
-                    <h3>Download our App Today & <br/> Experience Endless Possibilities</h3>
-                    <p>and get started with a free 1 month trial for your business</p>
-                    <a href="#" className="thm-btn cta-one__btn">Download Our App</a>
+                    <h3>Schedule a Clean Today & <br/> Experience Endless Possibilities</h3>
+                    <p>and get started with lot of amazing offers</p>
+                    <a href="#" className="thm-btn cta-one__btn">Book Now</a>
                 </div>
             </div>
         </section>

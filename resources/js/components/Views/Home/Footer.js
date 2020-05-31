@@ -48,14 +48,14 @@ export default class Footer extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-4">
                                                 <div className="footer-widget footer-widget__about">
-                                                    <a className="footer-widget__logo" href="/"><img
-                                                        src={require("../../../assets/images/logo-1-1.png")} width="105"
-                                                        alt="Awesome Image"/></a>
+                                                    <a className="footer-widget__logo" href="/">
+                                                      Gfx Facilities
+                                                    </a>
                                                     <p>Lorem Ipsum is simply dummy text the printing and setting
                                                         industry. Lorm Ipsum has been the industry's stanard dummy text
                                                         ever. </p>
-                                                    <p><a href="mailto:needhelp@zimed.com">needhelp@zimed.com</a> <br/>
-                                                        <a href="tel:666-888-0000">666 888 0000</a></p>
+                                                    <p><a href="mailto:support@gfxfacilities.com">support@gfxfacilities.com</a> <br/>
+                                                        <a href="tel:+234 811 0000 606">+234 811 0000 606</a></p>
                                                 </div>
                                             </div>
 
@@ -108,7 +108,7 @@ export default class Footer extends React.Component {
                                                 <a className="fab fa-instagram" href="#"></a>
                                                 <a className="fab fa-pinterest-p" href="#"></a>
                                             </div>
-                                            <p>© copyright 2020 by Layerdrops.com</p>
+                                            <p>© copyright 2020 by Myckhel</p>
                                         </div>
 
                                     </div>

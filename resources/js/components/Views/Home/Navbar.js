@@ -1,7 +1,7 @@
-import React,{Component} from 'react';
+import React,{PureComponent} from 'react';
 import { Link } from 'react-router-dom';
 
-export default class Navbar extends React.Component {
+export default class Navbar extends PureComponent {
     constructor(){
         super()
         this.state = {
@@ -62,7 +62,8 @@ export default class Navbar extends React.Component {
                         <div className="container">
                             <div className="main-nav__logo-box">
                                 <a href="/" className="main-nav__logo">
-                                    <img src={require("../../../assets/images/logo-1-1.png")} width="105" alt="Awesome Image"/>
+                                  Gfx Facilities
+                                    {/*<img src={require("../../../assets/images/logo-1-1.png")} width="105" alt="Awesome Image"/>*/}
                                 </a>
                                 <a href="#" className="side-menu__toggler"><i className="fa fa-bars"></i></a>
                             </div>
@@ -72,14 +73,14 @@ export default class Navbar extends React.Component {
                                         <a href="/">Home</a>
                                     </li>
                                     <li className="scrollToLink">
-                                        <a href="#features">Features</a>
+                                        <a href="#features">Services</a>
                                     </li>
                                     <li className="scrollToLink">
                                         <a href="#pricing">Pricing</a>
                                     </li>
-                                    <li className="scrollToLink">
+                                    {/*<li className="scrollToLink">
                                         <a href="#app-shots">App Screens</a>
-                                    </li>
+                                    </li>*/}
                                     <li className="scrollToLink">
                                         <a href="#testimonials">Testimonials</a>
                                     </li>
@@ -102,11 +103,16 @@ export default class Navbar extends React.Component {
                                     <li className="scrollToLink">
                                         <a href="#contact">Contact</a>
                                     </li>
+
+                                    <li className="">
+                                        <a href="/auth">Login/Register</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="main-nav__right">
+
                                 <a href="#contact" data-target="#contact"
-                                   className="thm-btn header__btn scroll-to-target">Start Trial</a>
+                                   className="thm-btn header__btn scroll-to-target">Book a Clean</a>
                             </div>
                         </div>
                     </nav>

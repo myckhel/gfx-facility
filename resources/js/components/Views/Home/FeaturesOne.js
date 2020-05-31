@@ -14,7 +14,7 @@ const FeaturesOne = () => {
                                             <div className="cta-three__content">
                                                 <div className="block-title text-left">
                                                     <span className="block-title__bubbles"></span>
-                                                    <p>Checkout App Features</p>
+                                                    <p>Checkout Our Services</p>
                                                     <h3>Control Everything From One Application</h3>
                                                 </div>
                                                 <div className="cta-three__box-wrap">
