@@ -19,6 +19,10 @@ const DefaultFooter = React.lazy(() => import('./DefaultFooter'));
 const DefaultHeader = React.lazy(() => import('./DefaultHeader'));
 
 // Pages
+const Home = React.lazy(() => import('../../views/Home'));
+const Blog = React.lazy(() => import('../../views/Blog/blog'));
+const BlogDetails = React.lazy(() => import('../../views/Blog/blog-details'));
+
 const Login = React.lazy(() => import('../../views/Pages/Login'));
 const Register = React.lazy(() => import('../../views/Pages/Register'));
 const Page404 = React.lazy(() => import('../../views/Pages/Page404'));
@@ -107,14 +111,14 @@ export const Routes = () => {
   }, [initURL, location.pathname])
 
   useEffect(() => {
+    console.log(location);
     if (location.pathname === '/') {
-      if (token === null) {
-        history.push('/login');
-      } else if (initURL === '' || initURL === '/' || initURL === '/login') {
-        history.push('/dashboard');
-      } else {
-        // history.push(initURL);
-      }
+      // if (token === null) {
+      //   history.push('/login');
+      // } else if (initURL === '' || initURL === '/' || initURL === '/login') {
+      //   history.push('/dashboard');
+      // } else {
+      // }
     } else if (['/register', '/login'].includes(location.pathname)) {
       if (token) {
         history.push('/dashboard');
@@ -126,6 +130,9 @@ export const Routes = () => {
 
   return (
     <Switch>
+      <Route exact path="/" name="Home" render={props => <Home {...props}/>} />
+      <Route exact path="/blog" name="Blog" render={props => <Blog {...props}/>} />
+      <Route exact path="/blog-details" name="BlogDetails" render={props => <BlogDetails {...props}/>} />
       <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
       <Route exact path="/register" name="Register Page" render={props => <Register {...props}/>} />
       <Route exact path="/404" name="Page 404" render={props => <Page404 {...props}/>} />

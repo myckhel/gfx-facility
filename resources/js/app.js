@@ -6,9 +6,14 @@ import { createBrowserHistory } from "history";
 import { Provider } from 'react-redux'
 import './bootstrap';
 import './func/window'
-// import './App.scss';
+import './App.scss';
 // import 'react-notifications/lib/notifications.css';
-// import 'antd/dist/antd.css';
+import 'antd/dist/antd.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/css/animate.min.css';
+import './assets/css/zimed-icon.css';
+import './assets/css/style.css';
+import './assets/css/responsive.css';
 require('dotenv').config();
 
 import ReactDOM from 'react-dom';
