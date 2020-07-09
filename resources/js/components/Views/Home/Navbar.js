@@ -87,16 +87,11 @@ export default class Navbar extends PureComponent {
                                     <li className="dropdown scrollToLink">
                                         <a href="#blog">Blog</a>
                                         <ul>
-                                            <li>
-                                                <Link to="/blog">
-                                                <p>Blog Page</p>
-                                                </Link>
-                                            </li>
-                                            <li>
+                                            {/*<li>
                                                 <Link to="/blog-details">
                                                 <p>Blog Details</p>
                                                 </Link>
-                                            </li>
+                                            </li>*/}
                                         </ul>
 
                                     </li>
@@ -111,7 +106,7 @@ export default class Navbar extends PureComponent {
                             </div>
                             <div className="main-nav__right">
 
-                                <a href="#contact" data-target="#contact"
+                                <a href="/#contact" data-target="#contact"
                                    className="thm-btn header__btn scroll-to-target">Book a Clean</a>
                             </div>
                         </div>
