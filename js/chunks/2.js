@@ -1,1 +1,460 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{107:function(e,a){e.exports="/images/footer-shape-1.png?7606b65ded9bb6ae161d7c9b47ead21b"},108:function(e,a){e.exports="/images/footer-shape-2.png?3a523297e102416a4c5b7f58470c2278"},109:function(e,a){e.exports="/images/footer-shape-3.png?7ac2f5fcbdc7e035c4fec4d9329c9772"},110:function(e,a){e.exports="/images/close-1-1.png?71605fb69fa576c8568dfa300d1b22ed"},112:function(e,a,t){var n=t(113);"string"==typeof n&&(n=[[e.i,n,""]]);var l={hmr:!0,transform:void 0,insertInto:void 0};t(18)(n,l);n.locals&&(e.exports=n.locals)},113:function(e,a,t){var n=t(17),l=t(32),c=t(114);a=n(!1);var r=l(c);a.push([e.i,"#banner {\n  background-image: url("+r+");\n}\n",""]),e.exports=a},114:function(e,a){e.exports="/images/banner-bg-1-1.png?b7e689b7502c6499bc733a97999c7ea2"},144:function(e,a){e.exports="/images/banner-shapes-1-1.png?b20b97bee025b53c97eb73bcfd587ae5"},145:function(e,a){e.exports="/images/banner-shapes-1-2.png?cafdb723e89d81356ba0ec3bc16e6212"},146:function(e,a){e.exports="/images/banner-shapes-1-4.png?a11a6e694601f6fc33114b6f4aa876be"},147:function(e,a){e.exports="/images/banner-shapes-1-5.png?05d3bf76f0c9ec835a03f20ad8086a9e"},148:function(e,a){e.exports="/images/banner-shapes-1-6.png?ca79080bc1e33a104f4eeb872e0e0aa0"},149:function(e,a){e.exports="/images/banner-shapes-1-7.png?a79e54aec6c5206c5103b94f8b327a7a"},150:function(e,a){e.exports="/images/banner-shapes-1-3.png?839265ec63dad341b89798e6a3384953"},151:function(e,a){e.exports="/images/cta-1-shape-2.png?5d3de63f1f0b9deb8f622f60feed0ff2"},152:function(e,a){e.exports="/images/cta-1-shape-3.png?65e918b751c79e9cfeac4f2a5f314254"},153:function(e,a){e.exports="/images/cta-1-shape-1.png?dc2b275fae06350ca152f60d5859e1df"},154:function(e,a){e.exports="/images/cta-moc-1-1.png?e5099f0b5f5a75a0205e2f1d4db6bb95"},155:function(e,a){e.exports="/images/cta-2-shape-1.png?6eec0bc2b086b4b921e35ae7ca003df5"},156:function(e,a){e.exports="/images/cta-2-shape-2.png?5651dd6d664155d1579bcd9ddc738759"},157:function(e,a){e.exports="/images/cta-2-shape-3.png?a11a6e694601f6fc33114b6f4aa876be"},158:function(e,a){e.exports="/images/cta-moc-2-1.png?08ba992db6f2cd4ddf6e9df71991dd15"},160:function(e,a){e.exports="/images/pricing-shape-1.png?e40b177ade71563eae954c964625edb6"},161:function(e,a){e.exports="/images/pricing-shape-2.png?8587a0b7a4012bf75d37b305f22191e8"},162:function(e,a){e.exports="/images/pricing-shape-3.png?3a523297e102416a4c5b7f58470c2278"},167:function(e,a){e.exports="/images/map-1-1.png?26c631ff5f903c24b74d605e657938b8"},168:function(e,a){e.exports="/images/testi-shape-1.png?a11a6e694601f6fc33114b6f4aa876be"},169:function(e,a){e.exports="/images/testi-shape-2.png?b7e8953f78a83b8286fb678e75410878"},170:function(e,a){e.exports="/images/faq-shape-1.png?dc2b275fae06350ca152f60d5859e1df"},171:function(e,a){e.exports="/images/faq-shape-2.png?725487dfaf2abae18887ee7255225c67"},172:function(e,a){e.exports="/images/faq-shape-3.png?65e918b751c79e9cfeac4f2a5f314254"},173:function(e,a){e.exports="/images/contact-shape-1.png?dc7df525fd46da07b5e058abb0d19258"},174:function(e,a){e.exports="/images/contact-shape-2.png?5651dd6d664155d1579bcd9ddc738759"},175:function(e,a){e.exports="/images/contact-shape-3.png?e658cf9d5245b0534f94fc4fce1b46c2"},176:function(e,a){e.exports="/images/contact-1.jpg?912bd371468c25da57ccc30b79e9aaec"},177:function(e,a){e.exports="/images/contact-2.jpg?b185831ad6c9b653de7447e943f7e17b"},21:function(e,a,t){"use strict";t.d(a,"a",(function(){return f}));var n=t(0),l=t.n(n);function c(e){return(c="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function r(e,a){for(var t=0;t<a.length;t++){var n=a[t];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function s(e,a){return(s=Object.setPrototypeOf||function(e,a){return e.__proto__=a,e})(e,a)}function i(e){var a=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var t,n=u(e);if(a){var l=u(this).constructor;t=Reflect.construct(n,arguments,l)}else t=n.apply(this,arguments);return o(this,t)}}function o(e,a){return!a||"object"!==c(a)&&"function"!=typeof a?m(e):a}function m(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function u(e){return(u=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var f=function(e){!function(e,a){if("function"!=typeof a&&null!==a)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(a&&a.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),a&&s(e,a)}(u,e);var a,n,c,o=i(u);function u(e){var a,t,n,l;return function(e,a){if(!(e instanceof a))throw new TypeError("Cannot call a class as a function")}(this,u),a=o.call(this,e),t=m(a),l=function(){window.scrollTo(0,0)},(n="scrollTop")in t?Object.defineProperty(t,n,{value:l,enumerable:!0,configurable:!0,writable:!0}):t[n]=l,a.state={scrollBtn:!1},a.handleScroll=a.handleScroll.bind(m(a)),a.scrollTop=a.scrollTop.bind(m(a)),a}return a=u,(n=[{key:"componentDidMount",value:function(){window.addEventListener("scroll",this.handleScroll)}},{key:"componentWillUnmount",value:function(){window.removeEventListener("scroll",this.handleScroll)}},{key:"handleScroll",value:function(){window.scrollY>70?this.setState({scrollBtn:!0}):window.scrollY<70&&this.setState({scrollBtn:!1})}},{key:"render",value:function(){return l.a.createElement("div",null,l.a.createElement("footer",{className:"site-footer"},l.a.createElement("img",{src:t(107),className:"site-footer__shape-1",alt:""}),l.a.createElement("img",{src:t(108),className:"site-footer__shape-2",alt:""}),l.a.createElement("img",{src:t(109),className:"site-footer__shape-3",alt:""}),l.a.createElement("div",{className:"site-footer__upper"},l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-4"},l.a.createElement("div",{className:"footer-widget footer-widget__about"},l.a.createElement("a",{className:"footer-widget__logo",href:"/"},"Gfx Facilities"),l.a.createElement("p",null,"Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been the industry's stanard dummy text ever. "),l.a.createElement("p",null,l.a.createElement("a",{href:"mailto:support@gfxfacilities.com"},"support@gfxfacilities.com")," ",l.a.createElement("br",null),l.a.createElement("a",{href:"tel:+234 811 0000 606"},"+234 811 0000 606")))),l.a.createElement("div",{className:"col-lg-4"},l.a.createElement("div",{className:"footer-widget footer-widget__links"},l.a.createElement("h3",{className:"footer-widget__title"},"Explore"),l.a.createElement("div",{className:"footer-widget__links-wrap"},l.a.createElement("ul",{className:"list-unstyled"},l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"About us")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Our Team")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"All Features")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Our Services")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Latest Blog"))),l.a.createElement("ul",{className:"list-unstyled"},l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Help")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Support")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Contact us")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Privacy Policy")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},"Terms & Condition")))))),l.a.createElement("div",{className:"col-lg-4"},l.a.createElement("div",{className:"footer-widget footer-widget__subscribe"},l.a.createElement("h3",{className:"footer-widget__title"},"Subscribe"),l.a.createElement("form",{className:"footer-widget__mc-form mc-form","data-url":""},l.a.createElement("input",{type:"text",name:"email",placeholder:"Email address"}),l.a.createElement("button",{type:"submit",className:"thm-btn footer-widget__mc-btn"},"Register Now")),l.a.createElement("div",{className:"mc-form__response"})))))),l.a.createElement("div",{className:"site-footer__bottom"},l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"inner-container"},l.a.createElement("div",{className:"site-footer__social"},l.a.createElement("a",{className:"fab fa-facebook-f",href:"#"}),l.a.createElement("a",{className:"fab fa-twitter",href:"#"}),l.a.createElement("a",{className:"fab fa-instagram",href:"#"}),l.a.createElement("a",{className:"fab fa-pinterest-p",href:"#"})),l.a.createElement("p",null,"© copyright 2020 by Myckhel"))))),l.a.createElement("div",{onClick:this.scrollTop,className:"scroll-to-target scroll-to-top",style:{display:this.state.scrollBtn?"block":"none"}},l.a.createElement("i",{className:"fa fa-angle-up"})),l.a.createElement("div",{className:"side-menu__block"},l.a.createElement("div",{className:"side-menu__block-overlay custom-cursor__overlay"},l.a.createElement("div",{className:"cursor"}),l.a.createElement("div",{className:"cursor-follower"})),l.a.createElement("div",{className:"side-menu__block-inner "},l.a.createElement("div",{className:"side-menu__top justify-content-end"},l.a.createElement("a",{href:"#",className:"side-menu__toggler side-menu__close-btn"},l.a.createElement("img",{src:t(110),alt:""}))),l.a.createElement("nav",{className:"mobile-nav__container"}),l.a.createElement("div",{className:"side-menu__sep"}),l.a.createElement("div",{className:"side-menu__content"},l.a.createElement("p",null,"Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been the industry's stanard dummy text ever. "),l.a.createElement("p",null,l.a.createElement("a",{href:"mailto:needhelp@zimed.com"},"needhelp@zimed.com")," ",l.a.createElement("br",null)," ",l.a.createElement("a",{href:"tel:888-999-0000"},"888 999 0000")),l.a.createElement("div",{className:"side-menu__social"},l.a.createElement("a",{className:"fab fa-facebook-f",href:"#"}),l.a.createElement("a",{className:"fab fa-twitter",href:"#"}),l.a.createElement("a",{className:"fab fa-instagram",href:"#"}),l.a.createElement("a",{className:"fab fa-pinterest-p",href:"#"}))))))}}])&&r(a.prototype,n),c&&r(a,c),u}(l.a.Component)},311:function(e,a,t){"use strict";t.r(a);var n=t(0),l=t.n(n),c=(t(112),t(38)),r=t(309),s=t(310),i=function(){return l.a.createElement("div",{className:"banner-one__moc col-md-5"},l.a.createElement(r.a,null,l.a.createElement(s.a,null),l.a.createElement(s.a,null),l.a.createElement(s.a,null),l.a.createElement(s.a,null),l.a.createElement("a",{href:"#",className:"thm-btn cta-two__btn"},"Book Now")))},o=function(){return l.a.createElement("section",{className:"banner-one",id:"banner"},l.a.createElement("img",{src:t(144),alt:"",className:"banner-one__shape-1"}),l.a.createElement("img",{src:t(145),alt:"",className:"banner-one__shape-2"}),l.a.createElement("img",{src:t(146),alt:"",className:"banner-one__shape-4"}),l.a.createElement("img",{src:t(147),alt:"",className:"banner-one__shape-5"}),l.a.createElement("img",{src:t(148),alt:"",className:"banner-one__shape-6"}),l.a.createElement("img",{src:t(149),alt:"",className:"banner-one__shape-7"}),l.a.createElement("div",{className:"container"},l.a.createElement("img",{src:t(150),alt:"",className:"banner-one__shape-moc-1"}),l.a.createElement(i,null),l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-7"},l.a.createElement("div",{className:"banner-one__content"},l.a.createElement("p",{className:"banner-one__tag-line"},"Welcome to Gfx Facilities ",l.a.createElement("a",{href:"#"},"Hire Now")),l.a.createElement("h3",null,"We help ",l.a.createElement("br",null)," Make It Clean"),l.a.createElement("p",null,"We are committed to providing our customers with exceptional service ",l.a.createElement("br",null)," while offering our employees the best training."),l.a.createElement("a",{href:"#contact","data-target":"#contact",className:"thm-btn banner-one__btn scroll-to-target"},"Get Started"))))))},m=function(){return l.a.createElement("section",{className:"service-one",id:"features"},l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"block-title text-center"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Checkout Our Service"),l.a.createElement("h3",null,"The Only Services You’ll Need")),l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"service-one__col wow fadeInUp","data-wow-duration":"1500ms","data-wow-delay":"000ms"},l.a.createElement("div",{className:"service-one__single"},l.a.createElement("i",{className:"zimed-icon-responsive"}),l.a.createElement("h3",null,"Home Cleaning"))),l.a.createElement("div",{className:"service-one__col wow fadeInUp","data-wow-duration":"1500ms","data-wow-delay":"100ms"},l.a.createElement("div",{className:"service-one__single"},l.a.createElement("i",{className:"zimed-icon-computer-graphic"}),l.a.createElement("h3",null,"Office Cleaning"))),l.a.createElement("div",{className:"service-one__col wow fadeInUp","data-wow-duration":"1500ms","data-wow-delay":"200ms"},l.a.createElement("div",{className:"service-one__single"},l.a.createElement("i",{className:"zimed-icon-development1"}),l.a.createElement("h3",null,"Fumigation"))),l.a.createElement("div",{className:"service-one__col wow fadeInUp","data-wow-duration":"1500ms","data-wow-delay":"300ms"},l.a.createElement("div",{className:"service-one__single"},l.a.createElement("i",{className:"zimed-icon-development"}),l.a.createElement("h3",null,"Regular Cleaning"))),l.a.createElement("div",{className:"service-one__col wow fadeInUp","data-wow-duration":"1500ms","data-wow-delay":"400ms"},l.a.createElement("div",{className:"service-one__single"},l.a.createElement("i",{className:"zimed-icon-development"}),l.a.createElement("h3",null,"Daily Cleaning"))))))},u=function(){return l.a.createElement("div",{className:"cta-three"},l.a.createElement("img",{src:t(151),alt:"",className:"cta-three__shape-2"}),l.a.createElement("img",{src:t(152),alt:"",className:"cta-three__shape-3"}),l.a.createElement("div",{className:"container"},l.a.createElement("img",{src:t(153),alt:"",className:"cta-three__shape-1"}),l.a.createElement("img",{src:t(154),alt:"",className:"cta-three__moc"}),l.a.createElement("div",{className:"row justify-content-end"},l.a.createElement("div",{className:"col-lg-6"},l.a.createElement("div",{className:"cta-three__content"},l.a.createElement("div",{className:"block-title text-left"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Checkout Our Services"),l.a.createElement("h3",null,"Control Everything From One Application")),l.a.createElement("div",{className:"cta-three__box-wrap"},l.a.createElement("div",{className:"cta-three__box"},l.a.createElement("div",{className:"cta-three__box-icon"},l.a.createElement("i",{className:"zimed-icon-strategy"})),l.a.createElement("div",{className:"cta-three__box-content"},l.a.createElement("h3",null,"Feature Here"),l.a.createElement("p",null,"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor anagi icdunt ut labore et dolore magna aliqua."))),l.a.createElement("div",{className:"cta-three__box"},l.a.createElement("div",{className:"cta-three__box-icon"},l.a.createElement("i",{className:"zimed-icon-training"})),l.a.createElement("div",{className:"cta-three__box-content"},l.a.createElement("h3",null,"Feature Here"),l.a.createElement("p",null,"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor anagi icdunt ut labore et dolore magna aliqua.")))),l.a.createElement("a",{href:"#",className:"thm-btn cta-three__btn"},"Discover More"))))))},f=function(){return l.a.createElement("section",{className:"cta-two"},l.a.createElement("img",{src:t(155),alt:"",className:"cta-two__shape-1"}),l.a.createElement("img",{src:t(156),alt:"",className:"cta-two__shape-2"}),l.a.createElement("div",{className:"container"},l.a.createElement("img",{src:t(157),alt:"",className:"cta-two__shape-3"}),l.a.createElement("img",{src:t(158),alt:"",className:"cta-two__moc"}),l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-xl-5 col-lg-6"},l.a.createElement("div",{className:"cta-two__content"},l.a.createElement("div",{className:"block-title text-left"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Checkout App Features"),l.a.createElement("h3",null,"Discover the Powerful Tools For Your Repeat Customers")),l.a.createElement("p",null,"Lorem Ipsum is simply dummy text of the printing and typesetting industry when an unknown printer took a galley of type and scrambled it to make. Lorem ipsum dolor sit amet, consectetur adipisicing elit."),l.a.createElement("a",{href:"#",className:"thm-btn cta-two__btn"},"Discover More"))))))},d=t(34),p=t.n(d),E=t(35),g=t.n(E);function h(e){return(h="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function b(e,a){for(var t=0;t<a.length;t++){var n=a[t];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function _(e,a){return(_=Object.setPrototypeOf||function(e,a){return e.__proto__=a,e})(e,a)}function N(e){var a=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var t,n=w(e);if(a){var l=w(this).constructor;t=Reflect.construct(n,arguments,l)}else t=n.apply(this,arguments);return v(this,t)}}function v(e,a){return!a||"object"!==h(a)&&"function"!=typeof a?y(e):a}function y(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function w(e){return(w=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var k=function(e){!function(e,a){if("function"!=typeof a&&null!==a)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(a&&a.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),a&&_(e,a)}(s,e);var a,n,c,r=N(s);function s(){var e,a,t,n;return function(e,a){if(!(e instanceof a))throw new TypeError("Cannot call a class as a function")}(this,s),e=r.call(this),a=y(e),n=function(a){a&&e.setState({startCounter:!0})},(t="onVisibilityChange")in a?Object.defineProperty(a,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):a[t]=n,e.state={startCounter:!1},e}return a=s,(n=[{key:"render",value:function(){return l.a.createElement("div",null,l.a.createElement("section",{className:"funfact-one"},l.a.createElement("img",{src:t(160),alt:"",className:"funfact-one__shape-1"}),l.a.createElement("img",{src:t(161),alt:"",className:"funfact-one__shape-2"}),l.a.createElement("img",{src:t(162),alt:"",className:"funfact-one__shape-3"}),l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-3 col-md-6"},l.a.createElement("div",{className:"funfact-one__single"},l.a.createElement("h3",{className:"counter"},l.a.createElement(g.a,{onChange:this.onVisibilityChange,offset:{top:10},delayedCall:!0},l.a.createElement(p.a,{end:this.state.startCounter?7842:0}))),l.a.createElement("p",null,"Bookings"))),l.a.createElement("div",{className:"col-lg-3 col-md-6"},l.a.createElement("div",{className:"funfact-one__single"},l.a.createElement("h3",{className:"counter"},l.a.createElement(g.a,{onChange:this.onVisibilityChange,offset:{top:10},delayedCall:!0},l.a.createElement(p.a,{end:this.state.startCounter?6020:0}))),l.a.createElement("p",null,"Customers"))),l.a.createElement("div",{className:"col-lg-3 col-md-6"},l.a.createElement("div",{className:"funfact-one__single"},l.a.createElement("h3",{className:"counter"},l.a.createElement(g.a,{onChange:this.onVisibilityChange,offset:{top:10},delayedCall:!0},l.a.createElement(p.a,{end:this.state.startCounter?360:0}))),l.a.createElement("p",null,"5 Star Rating"))),l.a.createElement("div",{className:"col-lg-3 col-md-6"},l.a.createElement("div",{className:"funfact-one__single"},l.a.createElement("h3",{className:"counter"},l.a.createElement(g.a,{onChange:this.onVisibilityChange,offset:{top:10},delayedCall:!0},l.a.createElement(p.a,{end:this.state.startCounter?200:0}))),l.a.createElement("p",null,"Awards")))))))}}])&&b(a.prototype,n),c&&b(a,c),s}(n.Component);function x(e){return(x="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function S(e,a){for(var t=0;t<a.length;t++){var n=a[t];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function C(e,a){return(C=Object.setPrototypeOf||function(e,a){return e.__proto__=a,e})(e,a)}function j(e){var a=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var t,n=T(e);if(a){var l=T(this).constructor;t=Reflect.construct(n,arguments,l)}else t=n.apply(this,arguments);return O(this,t)}}function O(e,a){return!a||"object"!==x(a)&&"function"!=typeof a?P(e):a}function P(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function T(e){return(T=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var I=function(e){!function(e,a){if("function"!=typeof a&&null!==a)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(a&&a.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),a&&C(e,a)}(r,e);var a,t,n,c=j(r);function r(e){var a;return function(e,a){if(!(e instanceof a))throw new TypeError("Cannot call a class as a function")}(this,r),(a=c.call(this,e)).state={month:!0,year:!1},a.handleToggle=a.handleToggle.bind(P(a)),a}return a=r,(t=[{key:"handleToggle",value:function(){var e=this.state.month,a=this.state.year;e&&this.setState({year:!0,month:!1}),a&&this.setState({year:!1,month:!0})}},{key:"render",value:function(){return l.a.createElement("section",{className:"pricing-one",id:"pricing"},l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"pricing-one__sep"}),l.a.createElement("div",{className:"block-title text-center"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Our Pricing Tables"),l.a.createElement("h3",null,"Choose Pricing Plans")),l.a.createElement("ul",{className:"list-inline text-center switch-toggler-list",role:"tablist",id:"switch-toggle-tab"},l.a.createElement("li",{className:this.state.month?"month active":"month"},l.a.createElement("a",{href:"#"},"Monthly")),l.a.createElement("li",null,l.a.createElement("label",{className:this.state.year?"switch off":"switch on"},l.a.createElement("span",{onClick:this.handleToggle,className:"slider round"}))),l.a.createElement("li",{className:this.state.year?"year active":"year"},l.a.createElement("a",{href:"#"},"Yearly"))),l.a.createElement("div",{className:"tabed-content"},l.a.createElement("div",{id:"month",style:{display:this.state.month?"block":"none"}},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-4 wow fadeInLeft","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"pricing-one__single"},l.a.createElement("div",{className:"pricing-one__inner"},l.a.createElement("img",{src:"/assets/images/shapes/pricing-line-1-1.png",alt:"",className:"pricing-one__line"}),l.a.createElement("img",{src:"/assets/images/shapes/pricing-icon-1-1.png",alt:"",className:"pricing-one__icon"}),l.a.createElement("h3",null,"$20.00"),l.a.createElement("p",null,"Basic Pack"),l.a.createElement("ul",{className:"list-unstyled pricing-one__list"},l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Extra features"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Lifetime free support"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Upgrate options"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Full access")),l.a.createElement("a",{href:"#",className:"thm-btn pricing-one__btn"},"Get Started"),l.a.createElement("span",null,"Get a Free Trial")))),l.a.createElement("div",{className:"col-lg-4 wow fadeInUp","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"pricing-one__single"},l.a.createElement("div",{className:"pricing-one__inner"},l.a.createElement("img",{src:"/assets/images/shapes/pricing-line-1-1.png",alt:"",className:"pricing-one__line"}),l.a.createElement("img",{src:"/assets/images/shapes/pricing-icon-1-2.png",alt:"",className:"pricing-one__icon"}),l.a.createElement("h3",null,"$30.00"),l.a.createElement("p",null,"Standard Pack"),l.a.createElement("ul",{className:"list-unstyled pricing-one__list"},l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Extra features"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Lifetime free support"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Upgrate options"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Full access")),l.a.createElement("a",{href:"#",className:"thm-btn pricing-one__btn"},"Get Started"),l.a.createElement("span",null,"Get a Free Trial")))),l.a.createElement("div",{className:"col-lg-4 wow fadeInRight","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"pricing-one__single"},l.a.createElement("div",{className:"pricing-one__inner"},l.a.createElement("img",{src:"/assets/images/shapes/pricing-line-1-1.png",alt:"",className:"pricing-one__line"}),l.a.createElement("img",{src:"/assets/images/shapes/pricing-icon-1-3.png",alt:"",className:"pricing-one__icon"}),l.a.createElement("h3",null,"$40.00"),l.a.createElement("p",null,"Ultimate Pack"),l.a.createElement("ul",{className:"list-unstyled pricing-one__list"},l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Extra features"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Lifetime free support"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Upgrate options"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Full access")),l.a.createElement("a",{href:"#",className:"thm-btn pricing-one__btn"},"Get Started"),l.a.createElement("span",null,"Get a Free Trial")))))),l.a.createElement("div",{id:"year",style:{display:this.state.year?"block":"none"}},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-4 wow fadeInLeft","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"pricing-one__single"},l.a.createElement("div",{className:"pricing-one__inner"},l.a.createElement("img",{src:"/assets/images/shapes/pricing-line-1-1.png",alt:"",className:"pricing-one__line"}),l.a.createElement("img",{src:"/assets/images/shapes/pricing-icon-1-1.png",alt:"",className:"pricing-one__icon"}),l.a.createElement("h3",null,"$99.00"),l.a.createElement("p",null,"Basic Pack"),l.a.createElement("ul",{className:"list-unstyled pricing-one__list"},l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Extra features"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Lifetime free support"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Upgrate options"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Full access")),l.a.createElement("a",{href:"#",className:"thm-btn pricing-one__btn"},"Get Started"),l.a.createElement("span",null,"Get a Free Trial")))),l.a.createElement("div",{className:"col-lg-4 wow fadeInUp","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"pricing-one__single"},l.a.createElement("div",{className:"pricing-one__inner"},l.a.createElement("img",{src:"/assets/images/shapes/pricing-line-1-1.png",alt:"",className:"pricing-one__line"}),l.a.createElement("img",{src:"/assets/images/shapes/pricing-icon-1-2.png",alt:"",className:"pricing-one__icon"}),l.a.createElement("h3",null,"$199.00"),l.a.createElement("p",null,"Standard Pack"),l.a.createElement("ul",{className:"list-unstyled pricing-one__list"},l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Extra features"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Lifetime free support"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Upgrate options"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Full access")),l.a.createElement("a",{href:"#",className:"thm-btn pricing-one__btn"},"Get Started"),l.a.createElement("span",null,"Get a Free Trial")))),l.a.createElement("div",{className:"col-lg-4 wow fadeInRight","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"pricing-one__single"},l.a.createElement("div",{className:"pricing-one__inner"},l.a.createElement("img",{src:"/assets/images/shapes/pricing-line-1-1.png",alt:"",className:"pricing-one__line"}),l.a.createElement("img",{src:"/assets/images/shapes/pricing-icon-1-3.png",alt:"",className:"pricing-one__icon"}),l.a.createElement("h3",null,"$299.00"),l.a.createElement("p",null,"Ultimate Pack"),l.a.createElement("ul",{className:"list-unstyled pricing-one__list"},l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Extra features"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Lifetime free support"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Upgrate options"),l.a.createElement("li",null,l.a.createElement("i",{className:"fa fa-check"})," Full access")),l.a.createElement("a",{href:"#",className:"thm-btn pricing-one__btn"},"Get Started"),l.a.createElement("span",null,"Get a Free Trial")))))))))}}])&&S(a.prototype,t),n&&S(a,n),r}(l.a.Component),L=t(80),q=t.n(L);t(165);function R(e,a){return function(e){if(Array.isArray(e))return e}(e)||function(e,a){if("undefined"==typeof Symbol||!(Symbol.iterator in Object(e)))return;var t=[],n=!0,l=!1,c=void 0;try{for(var r,s=e[Symbol.iterator]();!(n=(r=s.next()).done)&&(t.push(r.value),!a||t.length!==a);n=!0);}catch(e){l=!0,c=e}finally{try{n||null==s.return||s.return()}finally{if(l)throw c}}return t}(e,a)||function(e,a){if(!e)return;if("string"==typeof e)return A(e,a);var t=Object.prototype.toString.call(e).slice(8,-1);"Object"===t&&e.constructor&&(t=e.constructor.name);if("Map"===t||"Set"===t)return Array.from(e);if("Arguments"===t||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))return A(e,a)}(e,a)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function A(e,a){(null==a||a>e.length)&&(a=e.length);for(var t=0,n=new Array(a);t<a;t++)n[t]=e[t];return n}var F=function(){var e=R(Object(n.useState)(null),2),a=e[0],c=e[1],r=function(){null!==a&&a.slideNext()},s=function(){null!==a&&a.slidePrev()};return l.a.createElement("section",{className:"testimonials__one",id:"testimonials"},l.a.createElement("img",{src:t(167),alt:"Awesome Image",className:"map-img"}),l.a.createElement("img",{src:t(168),alt:"",className:"testimonials__one-shape-1"}),l.a.createElement("img",{src:t(169),alt:"",className:"testimonials__one-shape-2"}),l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-6 d-flex"},l.a.createElement("div",{className:"my-auto wow fadeInUp","data-wow-duration":"1500ms"},l.a.createElement("div",{id:"testimonials-slider-pager"},l.a.createElement("div",{className:"testimonials-slider-pager-one"},l.a.createElement("span",{onClick:r,className:"pager-item active","data-slide-index":"0"},l.a.createElement("img",{src:t(65),alt:"Awesome Image"})),l.a.createElement("span",{onClick:s,className:"pager-item","data-slide-index":"1"},l.a.createElement("img",{src:t(66),alt:"Awesome Image"})),l.a.createElement("span",{onClick:r,className:"pager-item","data-slide-index":"2"},l.a.createElement("img",{src:t(67),alt:"Awesome Image"})),l.a.createElement("span",{onClick:s,className:"pager-item","data-slide-index":"3"},l.a.createElement("img",{src:t(68),alt:"Awesome Image"})),l.a.createElement("span",{onClick:r,className:"pager-item","data-slide-index":"4"},l.a.createElement("img",{src:t(69),alt:"Awesome Image"})),l.a.createElement("span",{onClick:s,className:"pager-item","data-slide-index":"5"},l.a.createElement("img",{src:t(70),alt:"Awesome Image"}))),l.a.createElement("div",{className:"testimonials-slider-pager-two"},l.a.createElement("a",{href:"#",className:"pager-item active","data-slide-index":"0"},l.a.createElement("img",{src:t(65),alt:"Awesome Image"})),l.a.createElement("a",{href:"#",className:"pager-item","data-slide-index":"1"},l.a.createElement("img",{src:t(66),alt:"Awesome Image"})),l.a.createElement("a",{href:"#",className:"pager-item","data-slide-index":"2"},l.a.createElement("img",{src:t(67),alt:"Awesome Image"})),l.a.createElement("a",{href:"#",className:"pager-item","data-slide-index":"3"},l.a.createElement("img",{src:t(68),alt:"Awesome Image"})),l.a.createElement("a",{href:"#",className:"pager-item","data-slide-index":"4"},l.a.createElement("img",{src:t(69),alt:"Awesome Image"})),l.a.createElement("a",{href:"#",className:"pager-item","data-slide-index":"5"},l.a.createElement("img",{src:t(70),alt:"Awesome Image"})))))),l.a.createElement("div",{className:"col-lg-6"},l.a.createElement("div",{className:"block-title text-left"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Checkout Latest Posts"),l.a.createElement("h3",null,"What Our Clients Are Saying")),l.a.createElement("ul",{className:"slider testimonials-slider"},l.a.createElement(q.a,{getSwiper:c},l.a.createElement("li",{className:"slide-item"},l.a.createElement("div",{className:"testimonials__one__single"},l.a.createElement("p",null,"This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),l.a.createElement("h3",null,"Delila Rayam"))),l.a.createElement("li",{className:"slide-item"},l.a.createElement("div",{className:"testimonials__one__single"},l.a.createElement("p",null,"This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),l.a.createElement("h3",null,"Terrilyn Werme"))),l.a.createElement("li",{className:"slide-item"},l.a.createElement("div",{className:"testimonials__one__single"},l.a.createElement("p",null,"This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),l.a.createElement("h3",null,"Kyle Demayo"))),l.a.createElement("li",{className:"slide-item"},l.a.createElement("div",{className:"testimonials__one__single"},l.a.createElement("p",null,"This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),l.a.createElement("h3",null,"Minta Hadad"))),l.a.createElement("li",{className:"slide-item"},l.a.createElement("div",{className:"testimonials__one__single"},l.a.createElement("p",null,"This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),l.a.createElement("h3",null,"Sherman Cibrian"))),l.a.createElement("li",{className:"slide-item"},l.a.createElement("div",{className:"testimonials__one__single"},l.a.createElement("p",null,"This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),l.a.createElement("h3",null,"Adrianne Hagans")))),l.a.createElement("div",{className:"testimonial_pagination"},l.a.createElement("div",{className:"testimonials-slider-pager-one testimonials-slider-pager-two",onClick:s},l.a.createElement("i",{className:"zimed-icon-left-arrow"})),l.a.createElement("div",{className:"ml-3",onClick:r},l.a.createElement("i",{className:"zimed-icon-right-arrow"}))))))))},D=function(){return l.a.createElement("section",{className:"faq-one"},l.a.createElement("img",{src:t(170),alt:"",className:"faq-one__shape-1"}),l.a.createElement("img",{src:t(171),alt:"",className:"faq-one__shape-2"}),l.a.createElement("img",{src:t(172),alt:"",className:"faq-one__shape-3"}),l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"block-title text-center"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Frequently Asked Questions"),l.a.createElement("h3",null,"Have any Question?")),l.a.createElement("div",{className:"accrodion-grp wow fadeIn faq-accrodion animated"},l.a.createElement("div",{className:"accrodion"},l.a.createElement("div",{className:"accrodion-inner"},l.a.createElement("div",{className:"accrodion-title"},l.a.createElement("h4",null,"Pre and post launch mobile app marketing pitfalls to avoid")),l.a.createElement("div",{className:"accrodion-content"},l.a.createElement("div",{className:"inner"},l.a.createElement("p",null,"There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."))))),l.a.createElement("div",{className:"accrodion  "},l.a.createElement("div",{className:"accrodion-inner"},l.a.createElement("div",{className:"accrodion-title"},l.a.createElement("h4",null,"Pre and post launch mobile app marketing pitfalls to avoid")),l.a.createElement("div",{className:"accrodion-content"},l.a.createElement("div",{className:"inner"},l.a.createElement("p",null,"There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."))))),l.a.createElement("div",{className:"accrodion "},l.a.createElement("div",{className:"accrodion-inner"},l.a.createElement("div",{className:"accrodion-title"},l.a.createElement("h4",null,"How to update application new features")),l.a.createElement("div",{className:"accrodion-content"},l.a.createElement("div",{className:"inner"},l.a.createElement("p",null,"There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."))))),l.a.createElement("div",{className:"accrodion "},l.a.createElement("div",{className:"accrodion-inner"},l.a.createElement("div",{className:"accrodion-title"},l.a.createElement("h4",null,"How to connect with the support to improve app experience")),l.a.createElement("div",{className:"accrodion-content"},l.a.createElement("div",{className:"inner"},l.a.createElement("p",null,"There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."))))))))},U=t(3),z=function(){return l.a.createElement("section",{className:"blog-one blog-one__home",id:"blog"},l.a.createElement("img",{src:t(60),alt:"",className:"blog-one__shape-1"}),l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"block-title text-center"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Checkout Latest Posts"),l.a.createElement("h3",null,"News & Articles")),l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-4 wow fadeInLeft","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"blog-one__single"},l.a.createElement("div",{className:"blog-one__image"},l.a.createElement("img",{src:t(61),alt:""})),l.a.createElement("div",{className:"blog-one__content"},l.a.createElement("ul",{className:"blog-one__meta list-unstyled"},l.a.createElement("li",null,l.a.createElement("a",{href:"#"},l.a.createElement("i",{className:"far fa-clock"})," 20 Feb")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},l.a.createElement("i",{className:"far fa-comments"})," 2 Comments"))),l.a.createElement("h3",null,l.a.createElement(U.a,{to:"/blog-details"},l.a.createElement("p",null,"Pre and post launch mobile app marketing pitfalls to avoid"))),l.a.createElement(U.a,{to:"/blog-details"},l.a.createElement("p",{className:"blog-one__link"},l.a.createElement("i",{className:"zimed-icon-right-arrow"})))))),l.a.createElement("div",{className:"col-lg-4 wow fadeInUp","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"blog-one__single"},l.a.createElement("div",{className:"blog-one__image"},l.a.createElement("img",{src:t(62),alt:""})),l.a.createElement("div",{className:"blog-one__content"},l.a.createElement("ul",{className:"blog-one__meta list-unstyled"},l.a.createElement("li",null,l.a.createElement("a",{href:"#"},l.a.createElement("i",{className:"far fa-clock"})," 20 Feb")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},l.a.createElement("i",{className:"far fa-comments"})," 2 Comments"))),l.a.createElement("h3",null,l.a.createElement(U.a,{to:"/blog-details"},l.a.createElement("p",null,"It is all exactly as i said, but i don't like it let's unpack that"))),l.a.createElement(U.a,{to:"/blog-details"},l.a.createElement("p",{className:"blog-one__link"},l.a.createElement("i",{className:"zimed-icon-right-arrow"})))))),l.a.createElement("div",{className:"col-lg-4 wow fadeInRight","data-wow-duration":"1500ms"},l.a.createElement("div",{className:"blog-one__single"},l.a.createElement("div",{className:"blog-one__image"},l.a.createElement("img",{src:t(63),alt:""})),l.a.createElement("div",{className:"blog-one__content"},l.a.createElement("ul",{className:"blog-one__meta list-unstyled"},l.a.createElement("li",null,l.a.createElement("a",{href:"#"},l.a.createElement("i",{className:"far fa-clock"})," 20 Feb")),l.a.createElement("li",null,l.a.createElement("a",{href:"#"},l.a.createElement("i",{className:"far fa-comments"})," 2 Comments"))),l.a.createElement("h3",null,l.a.createElement(U.a,{to:"/blog-details"},l.a.createElement("p",null,"I just wanted to give you a heads-up, or this you feel you would"))),l.a.createElement(U.a,{to:"/blog-details"},l.a.createElement("p",{className:"blog-one__link"},l.a.createElement("i",{className:"zimed-icon-right-arrow"})))))))))},G=function(){return l.a.createElement("section",{className:"contact-one",id:"contact"},l.a.createElement("img",{src:t(173),alt:"",className:"contact-one__shape-1"}),l.a.createElement("img",{src:t(174),alt:"",className:"contact-one__shape-2"}),l.a.createElement("img",{src:t(175),alt:"",className:"contact-one__shape-3"}),l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-lg-6"},l.a.createElement("div",{className:"contact-one__content"},l.a.createElement("div",{className:"contact-one__images"},l.a.createElement("img",{src:t(176),className:"wow fadeInUp","data-wow-duration":"1500ms",alt:""}),l.a.createElement("img",{src:t(177),className:"wow fadeInUp","data-wow-duration":"1500ms",alt:""})),l.a.createElement("div",{className:"contact-one__infos"},l.a.createElement("div",{className:"contact-one__infos-single"},l.a.createElement("div",{className:"contact-one__infos-icon"},l.a.createElement("i",{className:"zimed-icon-placeholder"})),l.a.createElement("div",{className:"contact-one__infos-content"},l.a.createElement("h3",null,"Addresss"),l.a.createElement("p",null,"1A City of praize plaza, Akins Bus stop, Ajah, Lagos ",l.a.createElement("br",null)," Nigeria"))),l.a.createElement("div",{className:"contact-one__infos-single"},l.a.createElement("div",{className:"contact-one__infos-icon"},l.a.createElement("i",{className:"zimed-icon-message"})),l.a.createElement("div",{className:"contact-one__infos-content"},l.a.createElement("h3",null,"Email"),l.a.createElement("p",null,l.a.createElement("a",{href:"mailto:support@gfxfacilities.com"},"support@gfxfacilities.com")))),l.a.createElement("div",{className:"contact-one__infos-single"},l.a.createElement("div",{className:"contact-one__infos-icon"},l.a.createElement("i",{className:"zimed-icon-phone-call"})),l.a.createElement("div",{className:"contact-one__infos-content"},l.a.createElement("h3",null,"Phone"),l.a.createElement("p",null,l.a.createElement("a",{href:"tel:666-888-0000"},"+234 811 0000 606"))))))),l.a.createElement("div",{className:"col-lg-6"},l.a.createElement("div",{className:"contact-one__form-wrap"},l.a.createElement("div",{className:"block-title"},l.a.createElement("span",{className:"block-title__bubbles"}),l.a.createElement("p",null,"Contact Us Now"),l.a.createElement("h3",null,"Write a Message")),l.a.createElement("form",{action:"",className:"contact-form-validated contact-one__form"},l.a.createElement("div",{className:"row"},l.a.createElement("div",{className:"col-md-6"},l.a.createElement("input",{type:"text",name:"name",placeholder:"Name"})),l.a.createElement("div",{className:"col-md-6"},l.a.createElement("input",{type:"text",name:"email",placeholder:"Email"})),l.a.createElement("div",{className:"col-md-12"},l.a.createElement("input",{type:"text",name:"subject",placeholder:"Subject"})),l.a.createElement("div",{className:"col-md-12"},l.a.createElement("textarea",{name:"message",placeholder:"Message"}),l.a.createElement("button",{type:"submit",className:"thm-btn contact-one__form-btn"},"Send Message")))),l.a.createElement("div",{className:"result"}))))))},M=function(){return l.a.createElement("section",{className:"cta-one"},l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"cta-one__circle-1"}),l.a.createElement("div",{className:"cta-one__circle-2"}),l.a.createElement("div",{className:"cta-one__circle-3"}),l.a.createElement("div",{className:"cta-one__content text-center"},l.a.createElement("h3",null,"Schedule a Clean Today & ",l.a.createElement("br",null)," Experience Endless Possibilities"),l.a.createElement("p",null,"and get started with lot of amazing offers"),l.a.createElement("a",{href:"#",className:"thm-btn cta-one__btn"},"Book Now"))))},B=t(21);a.default=function(){return l.a.createElement("div",{className:"page-wrapper"},l.a.createElement(c.a,null),l.a.createElement(o,null),l.a.createElement(m,null),l.a.createElement(u,null),l.a.createElement(f,null),l.a.createElement(k,null),l.a.createElement(I,null),l.a.createElement(F,null),l.a.createElement(D,null),l.a.createElement(z,null),l.a.createElement(G,null),l.a.createElement(M,null),l.a.createElement(B.a,null))}},38:function(e,a,t){"use strict";t.d(a,"a",(function(){return p}));var n=t(0),l=t.n(n),c=t(3);function r(e){return(r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function s(e,a){for(var t=0;t<a.length;t++){var n=a[t];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function i(e,a){return(i=Object.setPrototypeOf||function(e,a){return e.__proto__=a,e})(e,a)}function o(e){var a=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var t,n=f(e);if(a){var l=f(this).constructor;t=Reflect.construct(n,arguments,l)}else t=n.apply(this,arguments);return m(this,t)}}function m(e,a){return!a||"object"!==r(a)&&"function"!=typeof a?u(e):a}function u(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function f(e){return(f=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function d(e,a,t){return a in e?Object.defineProperty(e,a,{value:t,enumerable:!0,configurable:!0,writable:!0}):e[a]=t,e}var p=function(e){!function(e,a){if("function"!=typeof a&&null!==a)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(a&&a.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),a&&i(e,a)}(m,e);var a,t,n,r=o(m);function m(){var e;return function(e,a){if(!(e instanceof a))throw new TypeError("Cannot call a class as a function")}(this,m),d(u(e=r.call(this)),"handleScroll",(function(){window.scrollY>70?e.setState({sticky:!0}):window.scrollY<70&&e.setState({sticky:!1})})),d(u(e),"mobileMenu",(function(){var e=document.querySelector(".mobile-nav__container"),a=document.querySelector(".main-nav__main-navigation").innerHTML;e.innerHTML=a,document.querySelector(".side-menu__toggler").addEventListener("click",(function(e){document.querySelector(".side-menu__block").classList.toggle("active"),e.preventDefault()})),document.querySelector(".side-menu__close-btn").addEventListener("click",(function(e){document.querySelector(".side-menu__block").classList.remove("active"),e.preventDefault()}))})),e.state={sticky:!1},e}return a=m,(t=[{key:"componentDidMount",value:function(){window.addEventListener("scroll",this.handleScroll),this.mobileMenu()}},{key:"componentWillUnmount",value:function(){window.removeEventListener("scroll",this.handleScroll)}},{key:"render",value:function(){return l.a.createElement("div",null,l.a.createElement("header",{className:"main-nav__header-one "},l.a.createElement("nav",{className:this.state.sticky?"header-navigation stricky stricked-menu stricky-fixed":"header-navigation stricky"},l.a.createElement("div",{className:"container"},l.a.createElement("div",{className:"main-nav__logo-box"},l.a.createElement("a",{href:"/",className:"main-nav__logo"},"Gfx Facilities"),l.a.createElement("a",{href:"#",className:"side-menu__toggler"},l.a.createElement("i",{className:"fa fa-bars"}))),l.a.createElement("div",{className:"main-nav__main-navigation"},l.a.createElement("ul",{className:"one-page-scroll-menu main-nav__navigation-box"},l.a.createElement("li",{className:"current scrollToLink"},l.a.createElement("a",{href:"/"},"Home")),l.a.createElement("li",{className:"scrollToLink"},l.a.createElement("a",{href:"#features"},"Services")),l.a.createElement("li",{className:"scrollToLink"},l.a.createElement("a",{href:"#pricing"},"Pricing")),l.a.createElement("li",{className:"scrollToLink"},l.a.createElement("a",{href:"#testimonials"},"Testimonials")),l.a.createElement("li",{className:"dropdown scrollToLink"},l.a.createElement("a",{href:"#blog"},"Blog"),l.a.createElement("ul",null,l.a.createElement("li",null,l.a.createElement(c.a,{to:"/blog"},l.a.createElement("p",null,"Blog Page"))),l.a.createElement("li",null,l.a.createElement(c.a,{to:"/blog-details"},l.a.createElement("p",null,"Blog Details"))))),l.a.createElement("li",{className:"scrollToLink"},l.a.createElement("a",{href:"#contact"},"Contact")),l.a.createElement("li",{className:""},l.a.createElement("a",{href:"/auth"},"Login/Register")))),l.a.createElement("div",{className:"main-nav__right"},l.a.createElement("a",{href:"#contact","data-target":"#contact",className:"thm-btn header__btn scroll-to-target"},"Book a Clean"))))))}}])&&s(a.prototype,t),n&&s(a,n),m}(n.PureComponent)},60:function(e,a){e.exports="/images/blog-shape-1-1.png?cafdb723e89d81356ba0ec3bc16e6212"},61:function(e,a){e.exports="/images/blog-1-1.jpg?51f5578a06ce8094c8a621ea8dac0c70"},62:function(e,a){e.exports="/images/blog-1-2.jpg?51f5578a06ce8094c8a621ea8dac0c70"},63:function(e,a){e.exports="/images/blog-1-3.jpg?51f5578a06ce8094c8a621ea8dac0c70"},65:function(e,a){e.exports="/images/testi-1-1.jpg?ce37ae9edfe62c2ce5ba47830dff3373"},66:function(e,a){e.exports="/images/testi-1-2.jpg?ce37ae9edfe62c2ce5ba47830dff3373"},67:function(e,a){e.exports="/images/testi-1-3.jpg?ce37ae9edfe62c2ce5ba47830dff3373"},68:function(e,a){e.exports="/images/testi-1-4.jpg?ce37ae9edfe62c2ce5ba47830dff3373"},69:function(e,a){e.exports="/images/testi-1-5.jpg?ce37ae9edfe62c2ce5ba47830dff3373"},70:function(e,a){e.exports="/images/testi-1-6.jpg?ce37ae9edfe62c2ce5ba47830dff3373"}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Views/Home/style.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Views/Home/style.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../../assets/images/background/inner-banner-bg.png */ "./resources/js/assets/images/background/inner-banner-bg.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+exports.push([module.i, ".thm-breadcrumb {\r\n  margin: 0;\r\n  display: flex;\r\n  }\r\n.list-unstyled li {\r\nmargin-left: 6px;\r\n}\r\n.thm-breadcrumb li a {\r\n  color: white;\r\n  font-weight: 600;\r\n}\r\n#page-header-secion {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/background/inner-banner-bg.png":
+/*!*******************************************************************!*\
+  !*** ./resources/js/assets/images/background/inner-banner-bg.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/inner-banner-bg.png?67f456f84de9af4d1e3682f1c160368c";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/author-1-1.jpg":
+/*!********************************************************!*\
+  !*** ./resources/js/assets/images/blog/author-1-1.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/author-1-1.jpg?a78379965cd158f6e6348de77b9c634c";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/blog-d-1.jpg":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/blog/blog-d-1.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-d-1.jpg?a5ea1ee21a6d1aebd8935306050d57c7";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/comment-1-1.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/js/assets/images/blog/comment-1-1.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/comment-1-1.jpg?3136fe7ffa639e6f7faca6cd84b12dee";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/comment-1-2.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/js/assets/images/blog/comment-1-2.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/comment-1-2.jpg?3136fe7ffa639e6f7faca6cd84b12dee";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/lp-1-1.jpg":
+/*!****************************************************!*\
+  !*** ./resources/js/assets/images/blog/lp-1-1.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/lp-1-1.jpg?b261188fdc6df61a3807f75307f391b7";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/lp-1-2.jpg":
+/*!****************************************************!*\
+  !*** ./resources/js/assets/images/blog/lp-1-2.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/lp-1-2.jpg?b261188fdc6df61a3807f75307f391b7";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/blog/lp-1-3.jpg":
+/*!****************************************************!*\
+  !*** ./resources/js/assets/images/blog/lp-1-3.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/lp-1-3.jpg?b261188fdc6df61a3807f75307f391b7";
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/BlogDetails.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/Views/Home/BlogDetails.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var BlogDetails = function BlogDetails() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "blog-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-details__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-details__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/blog-d-1.jpg */ "./resources/js/assets/images/blog/blog-d-1.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "blog-one__meta list-unstyled"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-clock"
+  }), " 20 Feb")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-comments"
+  }), " 2 Comments"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Launch New Mobile App Marketing Pitfalls To Avoid"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "There are many variations of passages of available but majority have alteration in some by inject humour or random words. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-details__bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "blog-details__tags"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Tags:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Tour,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Travel,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "beach")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-details__social site-footer__social"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fab fa-facebook-f",
+    href: "#"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fab fa-twitter",
+    href: "#"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fab fa-instagram",
+    href: "#"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fab fa-pinterest-p",
+    href: "#"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "author-one"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "author-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/author-1-1.jpg */ "./resources/js/assets/images/blog/author-1-1.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "author-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Christine Eve"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It has survived not only five centuries, but also the leap into electronic typesetting, remaining unchanged. It was popularised in the sheets containing."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "comment-one__title"
+  }, "2 Comments"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/comment-1-1.jpg */ "./resources/js/assets/images/blog/comment-1-1.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Roxie Harrison"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__date"
+  }, "20 Feb, 2020 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "."), " 4:00 pm"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    className: "thm-btn comment-one__btn"
+  }, "Reply"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/comment-1-2.jpg */ "./resources/js/assets/images/blog/comment-1-2.jpg"),
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jorge Glover"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-one__date"
+  }, "20 Feb, 2020 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "."), " 4:00 pm"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    className: "thm-btn comment-one__btn"
+  }, "Reply")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "comment-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "comment-form__title"
+  }, "Leave a Comment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "#",
+    className: "contact-one__form contact-form-validated",
+    noValidate: "novalidate"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    name: "name",
+    placeholder: "Name"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    name: "email",
+    placeholder: "Email"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    name: "website",
+    placeholder: "Website"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    name: "subject",
+    placeholder: "Subject"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    name: "message",
+    placeholder: "Message"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "submit",
+    className: "thm-btn contact-one__form-btn"
+  }, "Post Comment")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar-single sidebar__search"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "#",
+    className: "sidebar__search-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "Search here"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "submit"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-search"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar-single sidebar__post"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "sidebar__title"
+  }, "Latest Posts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar__post-single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/lp-1-1.jpg */ "./resources/js/assets/images/blog/lp-1-1.jpg"),
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/blog-details"
+  }, "Pre launch Mobile App Marketing Pitfalls"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar__post-single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/lp-1-2.jpg */ "./resources/js/assets/images/blog/lp-1-2.jpg"),
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/blog-details"
+  }, "Pre launch Mobile App Marketing Pitfalls"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar__post-single"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/blog/lp-1-3.jpg */ "./resources/js/assets/images/blog/lp-1-3.jpg"),
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/blog-details"
+  }, "Pre launch Mobile App Marketing Pitfalls")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar-single sidebar__cat"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "sidebar__title"
+  }, "Categories"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "list-unstyled sidebar__cat-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Business")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Introductions")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "One Page Template")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Parallax Effects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "New Technologies")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Video Backgrounds")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar-single sidebar__tags"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "sidebar__title"
+  }, "Tags"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sidebar__tags-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Business,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Agency,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Technology,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Parallax"))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BlogDetails);
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/PageHeader.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/Views/Home/PageHeader.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./resources/js/components/Views/Home/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var PageHeader = function PageHeader(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "page-header-secion",
+    className: "page-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "list-unstyled thm-breadcrumb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/"
+  }, "Home /")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "active"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, props.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "inner-banner__title"
+  }, props.title))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PageHeader);
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/style.css":
+/*!******************************************************!*\
+  !*** ./resources/js/components/Views/Home/style.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Views/Home/style.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Layout.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Views/Layout.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Home_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home/Navbar */ "./resources/js/components/Views/Home/Navbar.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "page-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), props.children);
+});
+
+/***/ }),
+
+/***/ "./resources/js/views/Blog/blog-details.js":
+/*!*************************************************!*\
+  !*** ./resources/js/views/Blog/blog-details.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Views_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Views/Layout */ "./resources/js/components/Views/Layout.js");
+/* harmony import */ var _components_Views_Home_PageHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Views/Home/PageHeader */ "./resources/js/components/Views/Home/PageHeader.js");
+/* harmony import */ var _components_Views_Home_BlogDetails__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Views/Home/BlogDetails */ "./resources/js/components/Views/Home/BlogDetails.js");
+/* harmony import */ var _components_Views_Home_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Views/Home/Footer */ "./resources/js/components/Views/Home/Footer.js");
+
+
+
+
+
+
+var BlogDetailPage = function BlogDetailPage() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_PageHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Blog Details"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_BlogDetails__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BlogDetailPage);
+
+/***/ })
+
+}]);
