@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Clear Cache facade value:
+Route::get('/clear-cache', 'TestController@clearCache');
+//Reoptimized class loader:
+Route::get('/optimize', 'TestController@optimize');
+//Route cache:
+Route::get('/route-cache', 'TestController@routeCache');
+//Clear Route cache:
+Route::get('/route-clear', 'TestController@routeClear');
+//Clear View cache:
+Route::get('/view-clear', 'TestController@viewClear');
+//Clear Config cache:
+Route::get('/config-cache', 'TestController@configCache');
+// Run reset command
+Route::get('app/reset/0000', 'TestController@reset');
+
 Route::any('{query}', 'HomeController@index')->where('query', '^(?!api).*$');
 
 Auth::routes();
