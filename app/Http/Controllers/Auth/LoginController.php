@@ -6,8 +6,11 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-// use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Carbon\Carbon;
+use App\User;
+use Illuminate\Support\Facades\Hash;
+use \Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -22,7 +25,7 @@ class LoginController extends Controller
     |
     */
 
-    // use AuthenticatesUsers;
+    use AuthenticatesUsers;
 
     /**
      * Where to redirect users after login.
@@ -52,25 +55,31 @@ class LoginController extends Controller
         'password'    => 'required|string',
         'remember_me' => 'boolean'
       ]);
-      $credentials = request(['email', 'password']);
 
-      if(!Auth::guard($guard)->check($credentials))
+      $user = User::whereEmail($request->email)->first();
+
+      if ($user) {
+        if(!Hash::check($request->password, $user->password))
+          return response()->json([
+              'message' => 'credentials does not match our records',
+              'status'  => false,
+          ], 401);
+
+        $user->withUrls('avatar');
+
+        $token       = $user->grantMeToken();
+
         return response()->json([
-            'message' => 'credentials does not match our records',
-            'status'  => false,
-        ], 401);
-
-      $user = $request->user($guard);
-      $user->withUrls('avatar');
-
-      $token       = $user->grantMeToken();
-
-      return response()->json([
-          'user'        => $user,
-          'token'       => $token['token'],
-          'token_type'  => $token['token_type'],
-          'expires_at'  => $token['expires_at'],
-      ]);
+            'user'        => $user,
+            'token'       => $token['token'],
+            'token_type'  => $token['token_type'],
+            'expires_at'  => $token['expires_at'],
+        ]);
+      } else {
+        throw ValidationException::withMessages([
+          'password' => [trans('validation.password')],
+        ]);
+      }
     }
 
     public function logout(Request $request)

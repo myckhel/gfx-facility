@@ -16,7 +16,7 @@ export default (route, data = {}, method = 'get', config = {}) => {
       console.log(params);
       const res = await Http[method](route, params, config)
 
-      if (['login', 'register'].includes(route)) {
+      if (['login', 'register', 'auth'].includes(route)) {
         if (res.data && res.data.user) {
           store.dispatch(storeUser(res.data.user))
         }

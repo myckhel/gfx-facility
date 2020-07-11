@@ -1,4 +1,4 @@
-import {INIT_URL, SIGNOUT_USER_SUCCESS, USER_DATA, USER_TOKEN_SET} from "../../constants/ActionTypes";
+import {LOGOUT, INIT_URL, SIGNOUT_USER_SUCCESS, USER_DATA, USER_TOKEN_SET} from "../../constants/ActionTypes";
 
 const INIT_STATE = {
   token: JSON.parse(localStorage.getItem('token')),
@@ -13,7 +13,9 @@ export default (state = INIT_STATE, action) => {
       return {...state, initURL: action.payload};
     }
 
-    case SIGNOUT_USER_SUCCESS: {
+    case LOGOUT: {
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
       return {
         ...state,
         token: null,
