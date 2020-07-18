@@ -26,10 +26,8 @@ import {
   UploadOutlined,
 } from '@ant-design/icons';
 
-const { SubMenu } = Menu;
-
 const DefaultFooter = React.lazy(() => import('./DefaultFooter'));
-const DefaultHeader = React.lazy(() => import('./DefaultHeader'));
+const Header = React.lazy(() => import('./Header'));
 
 // Pages
 const Home = React.lazy(() => import('../../views/Home'));
@@ -42,7 +40,7 @@ const Register = React.lazy(() => import('../../views/Pages/Register'));
 const Page404 = React.lazy(() => import('../../views/Pages/Page404'));
 const Page500 = React.lazy(() => import('../../views/Pages/Page500'));
 
-const { Header, Footer, Sider, Content } = Layout
+const { Footer, Sider, Content } = Layout
 
 const RestrictedRoute = ({component: Component, location, token, ...rest}) => (
   <Route
@@ -80,19 +78,9 @@ const AuthRoutes = () => {
 
   return (
     <Layout className='layout'>
-      <Header>
-        <div className='logo' />
-        {/*React.createElement(1===0 ? MenuUnfoldOutlined : MenuFoldOutlined, {
-          className: 'trigger',
-          // onClick: toggle,
-        })*/}
-        <Menu theme='dark' mode='horizontal' defaultSelectedKeys={['2']}>
-          <Menu.Item key='1'>A</Menu.Item>
-          <Menu.Item key='2'>B</Menu.Item>
-          <Menu.Item key='3'>C</Menu.Item>
-        </Menu>
-      </Header>
-      {/*<SideMenus />*/}
+      <Header />
+      <Layout >
+      <SideMenus />
       {/*<Sider />*/}
       <Content className="site-layout-background"
         style={{
@@ -104,27 +92,28 @@ const AuthRoutes = () => {
           <Breadcrumb.Item>Home</Breadcrumb.Item>
           <Breadcrumb.Item>List</Breadcrumb.Item>
           <Breadcrumb.Item>App</Breadcrumb.Item>
-          <div className="site-layout-content">
-            <Suspense fallback={Loading({})}>
-              <Switch>
-                {routes.map((route, idx) => {
-                  return route.component ? (
-                    <Route
-                      key={idx}
-                      path={route.path}
-                      exact={route.exact}
-                      name={route.name}
-                      render={props => (
-                        <route.component {...props} />
-                      )} />
-                  ) : (null);
-                })}
-                <Redirect from={location.path} to="/404" />
-              </Switch>
-            </Suspense>
-          </div>
         </Breadcrumb>
+        <div className="site-layout-content">
+          <Suspense fallback={Loading({})}>
+            <Switch>
+              {routes.map((route, idx) => {
+                return route.component ? (
+                  <Route
+                    key={idx}
+                    path={route.path}
+                    exact={route.exact}
+                    name={route.name}
+                    render={props => (
+                      <route.component {...props} />
+                    )} />
+                ) : (null);
+              })}
+              <Redirect from={location.path} to="/404" />
+            </Switch>
+          </Suspense>
+        </div>
       </Content>
+      </Layout >
       <Footer style={{textAlign: 'center'}}>
         <DefaultFooter />
       </Footer>
@@ -143,15 +132,11 @@ const SideMenus = memo(() => {
     <Sider trigger={null} collapsible collapsed={collapsed}>
       <div className="logo" />
       <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-        <Menu.Item key="1" icon={<UserOutlined />}>
-          nav 1
+      {navigation.items.map(({name, url, icon}, i) => (
+        <Menu.Item key={i+""} icon={icon}>
+          {name}
         </Menu.Item>
-        <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-          nav 2
-        </Menu.Item>
-        <Menu.Item key="3" icon={<UploadOutlined />}>
-          nav 3
-        </Menu.Item>
+      ))}
       </Menu>
     </Sider>
   )
