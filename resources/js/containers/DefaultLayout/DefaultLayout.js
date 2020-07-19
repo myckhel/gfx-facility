@@ -1,9 +1,8 @@
 import React, { memo, Component, Suspense, useState, useEffect } from 'react';
-import * as router from 'react-router-dom';
+
 import { Spin, Layout, Menu, Breadcrumb } from 'antd';
 
 // sidebar nav config
-import navigation from '../../_nav';
 // routes config
 import routes from '../../routes';
 
@@ -26,8 +25,9 @@ import {
   UploadOutlined,
 } from '@ant-design/icons';
 
-const DefaultFooter = React.lazy(() => import('./DefaultFooter'));
-const Header = React.lazy(() => import('./Header'));
+import SideBar from './SideBar'
+import DefaultFooter from './DefaultFooter';
+import Header from './Header';
 
 // Pages
 const Home = React.lazy(() => import('../../views/Home'));
@@ -80,7 +80,7 @@ const AuthRoutes = () => {
     <Layout className='layout'>
       <Header />
       <Layout >
-      <SideMenus />
+      <SideBar />
       {/*<Sider />*/}
       <Content className="site-layout-background"
         style={{
@@ -120,27 +120,6 @@ const AuthRoutes = () => {
     </Layout>
   );
 }
-
-const SideMenus = memo(() => {
-  const [collapsed, setState] = useState(false);
-
-  const toggle = () => {
-    setState(!collapsed);
-  };
-
-  return (
-    <Sider trigger={null} collapsible collapsed={collapsed}>
-      <div className="logo" />
-      <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-      {navigation.items.map(({name, url, icon}, i) => (
-        <Menu.Item key={i+""} icon={icon}>
-          {name}
-        </Menu.Item>
-      ))}
-      </Menu>
-    </Sider>
-  )
-})
 
 export const Routes = () => {
   const dispatch = useDispatch();

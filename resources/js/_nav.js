@@ -13,6 +13,16 @@ export default {
       name: 'Dashboard',
       url: '/dashboard',
       icon: <UserOutlined />,
-    }
+    },
+    {
+      name: 'Booking',
+      url: '/booking',
+      icon: <VideoCameraOutlined />,
+    },
+    {
+      name: 'Payment',
+      url: '/payments',
+      icon: <UploadOutlined />,
+    },
   ],
 };

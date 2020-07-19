@@ -3,7 +3,7 @@ const {NODE_ENV, MIX_CSRF_TOKEN, MIX_MAP_API_KEY, MIX_OneSignal_KEY, MIX_PUSHER_
 let api = "https://gfx.adbin.com.ng/public/api/";
 if (NODE_ENV || NODE_ENV === 'development') {
     api = "http://127.0.0.1:8000/api/";
-    api = "https://gfx.adbin.com.ng/public/api/";
+    // api = "https://gfx.adbin.com.ng/public/api/";
 }
 const API_URL = api
 
