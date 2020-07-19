@@ -1,1 +1,356 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{148:function(e,t){e.exports="/images/footer-shape-1.png?7606b65ded9bb6ae161d7c9b47ead21b"},149:function(e,t){e.exports="/images/footer-shape-2.png?3a523297e102416a4c5b7f58470c2278"},150:function(e,t){e.exports="/images/footer-shape-3.png?7ac2f5fcbdc7e035c4fec4d9329c9772"},151:function(e,t){e.exports="/images/close-1-1.png?71605fb69fa576c8568dfa300d1b22ed"},152:function(e,t,a){var n=a(153);"string"==typeof n&&(n=[[e.i,n,""]]);var r={hmr:!0,transform:void 0,insertInto:void 0};a(26)(n,r);n.locals&&(e.exports=n.locals)},153:function(e,t,a){var n=a(21),r=a(43),l=a(154);t=n(!1);var c=r(l);t.push([e.i,".thm-breadcrumb {\r\n  margin: 0;\r\n  display: flex;\r\n  }\r\n.list-unstyled li {\r\nmargin-left: 6px;\r\n}\r\n.thm-breadcrumb li a {\r\n  color: white;\r\n  font-weight: 600;\r\n}\r\n#page-header-secion {\r\n  background-image: url("+c+");\r\n}\r\n",""]),e.exports=t},154:function(e,t){e.exports="/images/inner-banner-bg.png?67f456f84de9af4d1e3682f1c160368c"},210:function(e,t){e.exports="/images/blog-d-1.jpg?a5ea1ee21a6d1aebd8935306050d57c7"},211:function(e,t){e.exports="/images/author-1-1.jpg?a78379965cd158f6e6348de77b9c634c"},212:function(e,t){e.exports="/images/comment-1-1.jpg?3136fe7ffa639e6f7faca6cd84b12dee"},213:function(e,t){e.exports="/images/comment-1-2.jpg?3136fe7ffa639e6f7faca6cd84b12dee"},214:function(e,t){e.exports="/images/lp-1-1.jpg?b261188fdc6df61a3807f75307f391b7"},215:function(e,t){e.exports="/images/lp-1-2.jpg?b261188fdc6df61a3807f75307f391b7"},216:function(e,t){e.exports="/images/lp-1-3.jpg?b261188fdc6df61a3807f75307f391b7"},33:function(e,t,a){"use strict";a.d(t,"a",(function(){return f}));var n=a(0),r=a.n(n);function l(e){return(l="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function c(e,t){for(var a=0;a<t.length;a++){var n=t[a];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function s(e,t){return(s=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function o(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var a,n=u(e);if(t){var r=u(this).constructor;a=Reflect.construct(n,arguments,r)}else a=n.apply(this,arguments);return i(this,a)}}function i(e,t){return!t||"object"!==l(t)&&"function"!=typeof t?m(e):t}function m(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function u(e){return(u=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var f=function(e){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&s(e,t)}(u,e);var t,n,l,i=o(u);function u(e){var t,a,n,r;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,u),t=i.call(this,e),a=m(t),r=function(){window.scrollTo(0,0)},(n="scrollTop")in a?Object.defineProperty(a,n,{value:r,enumerable:!0,configurable:!0,writable:!0}):a[n]=r,t.state={scrollBtn:!1},t.handleScroll=t.handleScroll.bind(m(t)),t.scrollTop=t.scrollTop.bind(m(t)),t}return t=u,(n=[{key:"componentDidMount",value:function(){window.addEventListener("scroll",this.handleScroll)}},{key:"componentWillUnmount",value:function(){window.removeEventListener("scroll",this.handleScroll)}},{key:"handleScroll",value:function(){window.scrollY>70?this.setState({scrollBtn:!0}):window.scrollY<70&&this.setState({scrollBtn:!1})}},{key:"render",value:function(){return r.a.createElement("div",null,r.a.createElement("footer",{className:"site-footer"},r.a.createElement("img",{src:a(148),className:"site-footer__shape-1",alt:""}),r.a.createElement("img",{src:a(149),className:"site-footer__shape-2",alt:""}),r.a.createElement("img",{src:a(150),className:"site-footer__shape-3",alt:""}),r.a.createElement("div",{className:"site-footer__upper"},r.a.createElement("div",{className:"container"},r.a.createElement("div",{className:"row"},r.a.createElement("div",{className:"col-lg-4"},r.a.createElement("div",{className:"footer-widget footer-widget__about"},r.a.createElement("a",{className:"footer-widget__logo",href:"/"},"Gfx Facilities"),r.a.createElement("p",null,"Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been the industry's stanard dummy text ever. "),r.a.createElement("p",null,r.a.createElement("a",{href:"mailto:support@gfxfacilities.com"},"support@gfxfacilities.com")," ",r.a.createElement("br",null),r.a.createElement("a",{href:"tel:+234 811 0000 606"},"+234 811 0000 606")))),r.a.createElement("div",{className:"col-lg-4"},r.a.createElement("div",{className:"footer-widget footer-widget__links"},r.a.createElement("h3",{className:"footer-widget__title"},"Explore"),r.a.createElement("div",{className:"footer-widget__links-wrap"},r.a.createElement("ul",{className:"list-unstyled"},r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"About us")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Our Team")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"All Features")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Our Services")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Latest Blog"))),r.a.createElement("ul",{className:"list-unstyled"},r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Help")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Support")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Contact us")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Privacy Policy")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Terms & Condition")))))),r.a.createElement("div",{className:"col-lg-4"},r.a.createElement("div",{className:"footer-widget footer-widget__subscribe"},r.a.createElement("h3",{className:"footer-widget__title"},"Subscribe"),r.a.createElement("form",{className:"footer-widget__mc-form mc-form","data-url":""},r.a.createElement("input",{type:"text",name:"email",placeholder:"Email address"}),r.a.createElement("button",{type:"submit",className:"thm-btn footer-widget__mc-btn"},"Register Now")),r.a.createElement("div",{className:"mc-form__response"})))))),r.a.createElement("div",{className:"site-footer__bottom"},r.a.createElement("div",{className:"container"},r.a.createElement("div",{className:"inner-container"},r.a.createElement("div",{className:"site-footer__social"},r.a.createElement("a",{className:"fab fa-facebook-f",href:"#"}),r.a.createElement("a",{className:"fab fa-twitter",href:"#"}),r.a.createElement("a",{className:"fab fa-instagram",href:"#"}),r.a.createElement("a",{className:"fab fa-pinterest-p",href:"#"})),r.a.createElement("p",null,"© copyright 2020 by Myckhel"))))),r.a.createElement("div",{onClick:this.scrollTop,className:"scroll-to-target scroll-to-top",style:{display:this.state.scrollBtn?"block":"none"}},r.a.createElement("i",{className:"fa fa-angle-up"})),r.a.createElement("div",{className:"side-menu__block"},r.a.createElement("div",{className:"side-menu__block-overlay custom-cursor__overlay"},r.a.createElement("div",{className:"cursor"}),r.a.createElement("div",{className:"cursor-follower"})),r.a.createElement("div",{className:"side-menu__block-inner "},r.a.createElement("div",{className:"side-menu__top justify-content-end"},r.a.createElement("a",{href:"#",className:"side-menu__toggler side-menu__close-btn"},r.a.createElement("img",{src:a(151),alt:""}))),r.a.createElement("nav",{className:"mobile-nav__container"}),r.a.createElement("div",{className:"side-menu__sep"}),r.a.createElement("div",{className:"side-menu__content"},r.a.createElement("p",null,"Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been the industry's stanard dummy text ever. "),r.a.createElement("p",null,r.a.createElement("a",{href:"mailto:needhelp@zimed.com"},"needhelp@zimed.com")," ",r.a.createElement("br",null)," ",r.a.createElement("a",{href:"tel:888-999-0000"},"888 999 0000")),r.a.createElement("div",{className:"side-menu__social"},r.a.createElement("a",{className:"fab fa-facebook-f",href:"#"}),r.a.createElement("a",{className:"fab fa-twitter",href:"#"}),r.a.createElement("a",{className:"fab fa-instagram",href:"#"}),r.a.createElement("a",{className:"fab fa-pinterest-p",href:"#"}))))))}}])&&c(t.prototype,n),l&&c(t,l),u}(r.a.Component)},367:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),l=a(44),c=a(45),s=function(){return r.a.createElement("section",{className:"blog-details"},r.a.createElement("div",{className:"container"},r.a.createElement("div",{className:"row"},r.a.createElement("div",{className:"col-lg-8"},r.a.createElement("div",{className:"blog-details__content"},r.a.createElement("div",{className:"blog-details__image"},r.a.createElement("img",{src:a(210),alt:""})),r.a.createElement("ul",{className:"blog-one__meta list-unstyled"},r.a.createElement("li",null,r.a.createElement("a",{href:"#"},r.a.createElement("i",{className:"far fa-clock"})," 20 Feb")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},r.a.createElement("i",{className:"far fa-comments"})," 2 Comments"))),r.a.createElement("h3",null,"Launch New Mobile App Marketing Pitfalls To Avoid"),r.a.createElement("p",null,"There are many variations of passages of available but majority have alteration in some by inject humour or random words. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."),r.a.createElement("p",null,"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.")),r.a.createElement("div",{className:"blog-details__bottom"},r.a.createElement("p",{className:"blog-details__tags"},r.a.createElement("span",null,"Tags:"),r.a.createElement("a",{href:"#"},"Tour,"),r.a.createElement("a",{href:"#"},"Travel,"),r.a.createElement("a",{href:"#"},"beach")),r.a.createElement("div",{className:"blog-details__social site-footer__social"},r.a.createElement("a",{className:"fab fa-facebook-f",href:"#"}),r.a.createElement("a",{className:"fab fa-twitter",href:"#"}),r.a.createElement("a",{className:"fab fa-instagram",href:"#"}),r.a.createElement("a",{className:"fab fa-pinterest-p",href:"#"}))),r.a.createElement("div",{className:"author-one"},r.a.createElement("div",{className:"author-one__image"},r.a.createElement("img",{src:a(211),alt:""})),r.a.createElement("div",{className:"author-one__content"},r.a.createElement("h3",null,"Christine Eve"),r.a.createElement("p",null,"It has survived not only five centuries, but also the leap into electronic typesetting, remaining unchanged. It was popularised in the sheets containing."))),r.a.createElement("div",{className:"comment-one"},r.a.createElement("h3",{className:"comment-one__title"},"2 Comments"),r.a.createElement("div",{className:"comment-one__single"},r.a.createElement("div",{className:"comment-one__image"},r.a.createElement("img",{src:a(212),alt:""})),r.a.createElement("div",{className:"comment-one__content"},r.a.createElement("h3",null,"Roxie Harrison"),r.a.createElement("div",{className:"comment-one__date"},"20 Feb, 2020 ",r.a.createElement("span",null,".")," 4:00 pm"),r.a.createElement("p",null,"Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus."),r.a.createElement("a",{href:"#",className:"thm-btn comment-one__btn"},"Reply"))),r.a.createElement("div",{className:"comment-one__single"},r.a.createElement("div",{className:"comment-one__image"},r.a.createElement("img",{src:a(213),alt:""})),r.a.createElement("div",{className:"comment-one__content"},r.a.createElement("h3",null,"Jorge Glover"),r.a.createElement("div",{className:"comment-one__date"},"20 Feb, 2020 ",r.a.createElement("span",null,".")," 4:00 pm"),r.a.createElement("p",null,"Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus."),r.a.createElement("a",{href:"#",className:"thm-btn comment-one__btn"},"Reply")))),r.a.createElement("div",{className:"comment-form"},r.a.createElement("h3",{className:"comment-form__title"},"Leave a Comment"),r.a.createElement("form",{action:"#",className:"contact-one__form contact-form-validated",noValidate:"novalidate"},r.a.createElement("div",{className:"row"},r.a.createElement("div",{className:"col-md-6"},r.a.createElement("input",{type:"text",name:"name",placeholder:"Name"})),r.a.createElement("div",{className:"col-md-6"},r.a.createElement("input",{type:"text",name:"email",placeholder:"Email"})),r.a.createElement("div",{className:"col-md-6"},r.a.createElement("input",{type:"text",name:"website",placeholder:"Website"})),r.a.createElement("div",{className:"col-md-6"},r.a.createElement("input",{type:"text",name:"subject",placeholder:"Subject"})),r.a.createElement("div",{className:"col-md-12"},r.a.createElement("textarea",{name:"message",placeholder:"Message"}),r.a.createElement("button",{type:"submit",className:"thm-btn contact-one__form-btn"},"Post Comment")))))),r.a.createElement("div",{className:"col-lg-4"},r.a.createElement("div",{className:"sidebar"},r.a.createElement("div",{className:"sidebar-single sidebar__search"},r.a.createElement("form",{action:"#",className:"sidebar__search-form"},r.a.createElement("input",{type:"text",placeholder:"Search here"}),r.a.createElement("button",{type:"submit"},r.a.createElement("i",{className:"fa fa-search"})))),r.a.createElement("div",{className:"sidebar-single sidebar__post"},r.a.createElement("h3",{className:"sidebar__title"},"Latest Posts"),r.a.createElement("div",{className:"sidebar__post-single"},r.a.createElement("img",{src:a(214),alt:""}),r.a.createElement("h3",null,r.a.createElement("a",{href:"/blog-details"},"Pre launch Mobile App Marketing Pitfalls"))),r.a.createElement("div",{className:"sidebar__post-single"},r.a.createElement("img",{src:a(215),alt:""}),r.a.createElement("h3",null,r.a.createElement("a",{href:"/blog-details"},"Pre launch Mobile App Marketing Pitfalls"))),r.a.createElement("div",{className:"sidebar__post-single"},r.a.createElement("img",{src:a(216),alt:""}),r.a.createElement("h3",null,r.a.createElement("a",{href:"/blog-details"},"Pre launch Mobile App Marketing Pitfalls")))),r.a.createElement("div",{className:"sidebar-single sidebar__cat"},r.a.createElement("h3",{className:"sidebar__title"},"Categories"),r.a.createElement("ul",{className:"list-unstyled sidebar__cat-list"},r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Business")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Introductions")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"One Page Template")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Parallax Effects")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"New Technologies")),r.a.createElement("li",null,r.a.createElement("a",{href:"#"},"Video Backgrounds")))),r.a.createElement("div",{className:"sidebar-single sidebar__tags"},r.a.createElement("h3",{className:"sidebar__title"},"Tags"),r.a.createElement("div",{className:"sidebar__tags-list"},r.a.createElement("a",{href:"#"},"Business,"),r.a.createElement("a",{href:"#"},"Agency,"),r.a.createElement("a",{href:"#"},"Technology,"),r.a.createElement("a",{href:"#"},"Parallax"))))))))},o=a(33);t.default=function(){return r.a.createElement(l.a,null,r.a.createElement(c.a,{title:"Blog Details"}),r.a.createElement(s,null),r.a.createElement(o.a,null))}},44:function(e,t,a){"use strict";var n=a(0),r=a.n(n),l=a(64);t.a=function(e){return r.a.createElement("div",{className:"page-wrapper"},r.a.createElement(l.a,null),e.children)}},45:function(e,t,a){"use strict";var n=a(0),r=a.n(n);a(152);t.a=function(e){return r.a.createElement("div",null,r.a.createElement("section",{id:"page-header-secion",className:"page-header"},r.a.createElement("div",{className:"container"},r.a.createElement("ul",{className:"list-unstyled thm-breadcrumb"},r.a.createElement("li",null,r.a.createElement("a",{href:"/"},"Home /")),r.a.createElement("li",{className:"active"},r.a.createElement("a",{href:"#"},e.title))),r.a.createElement("h2",{className:"inner-banner__title"},e.title))))}},64:function(e,t,a){"use strict";a.d(t,"a",(function(){return d}));var n=a(0),r=a.n(n);function l(e){return(l="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function c(e,t){for(var a=0;a<t.length;a++){var n=t[a];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function s(e,t){return(s=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function o(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var a,n=u(e);if(t){var r=u(this).constructor;a=Reflect.construct(n,arguments,r)}else a=n.apply(this,arguments);return i(this,a)}}function i(e,t){return!t||"object"!==l(t)&&"function"!=typeof t?m(e):t}function m(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function u(e){return(u=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function f(e,t,a){return t in e?Object.defineProperty(e,t,{value:a,enumerable:!0,configurable:!0,writable:!0}):e[t]=a,e}var d=function(e){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&s(e,t)}(i,e);var t,a,n,l=o(i);function i(){var e;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,i),f(m(e=l.call(this)),"handleScroll",(function(){window.scrollY>70?e.setState({sticky:!0}):window.scrollY<70&&e.setState({sticky:!1})})),f(m(e),"mobileMenu",(function(){var e=document.querySelector(".mobile-nav__container"),t=document.querySelector(".main-nav__main-navigation").innerHTML;e.innerHTML=t,document.querySelector(".side-menu__toggler").addEventListener("click",(function(e){document.querySelector(".side-menu__block").classList.toggle("active"),e.preventDefault()})),document.querySelector(".side-menu__close-btn").addEventListener("click",(function(e){document.querySelector(".side-menu__block").classList.remove("active"),e.preventDefault()}))})),e.state={sticky:!1},e}return t=i,(a=[{key:"componentDidMount",value:function(){window.addEventListener("scroll",this.handleScroll),this.mobileMenu()}},{key:"componentWillUnmount",value:function(){window.removeEventListener("scroll",this.handleScroll)}},{key:"render",value:function(){return r.a.createElement("div",null,r.a.createElement("header",{className:"main-nav__header-one "},r.a.createElement("nav",{className:this.state.sticky?"header-navigation stricky stricked-menu stricky-fixed":"header-navigation stricky"},r.a.createElement("div",{className:"container"},r.a.createElement("div",{className:"main-nav__logo-box"},r.a.createElement("a",{href:"/",className:"main-nav__logo"},"Gfx Facilities"),r.a.createElement("a",{href:"#",className:"side-menu__toggler"},r.a.createElement("i",{className:"fa fa-bars"}))),r.a.createElement("div",{className:"main-nav__main-navigation"},r.a.createElement("ul",{className:"one-page-scroll-menu main-nav__navigation-box"},r.a.createElement("li",{className:"current scrollToLink"},r.a.createElement("a",{href:"/"},"Home")),r.a.createElement("li",{className:"scrollToLink"},r.a.createElement("a",{href:"#features"},"Services")),r.a.createElement("li",{className:"scrollToLink"},r.a.createElement("a",{href:"#pricing"},"Pricing")),r.a.createElement("li",{className:"scrollToLink"},r.a.createElement("a",{href:"#testimonials"},"Testimonials")),r.a.createElement("li",{className:"dropdown scrollToLink"},r.a.createElement("a",{href:"#blog"},"Blog"),r.a.createElement("ul",null)),r.a.createElement("li",{className:"scrollToLink"},r.a.createElement("a",{href:"#contact"},"Contact")),r.a.createElement("li",{className:""},r.a.createElement("a",{href:"/auth"},"Login/Register")))),r.a.createElement("div",{className:"main-nav__right"},r.a.createElement("a",{href:"/#contact","data-target":"#contact",className:"thm-btn header__btn scroll-to-target"},"Book a Clean"))))))}}])&&c(t.prototype,a),n&&c(t,n),i}(n.PureComponent)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[3],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Views/Home/style.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Views/Home/style.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../../assets/images/background/inner-banner-bg.png */ "./resources/js/assets/images/background/inner-banner-bg.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+exports.push([module.i, ".thm-breadcrumb {\r\n  margin: 0;\r\n  display: flex;\r\n  }\r\n.list-unstyled li {\r\nmargin-left: 6px;\r\n}\r\n.thm-breadcrumb li a {\r\n  color: white;\r\n  font-weight: 600;\r\n}\r\n#page-header-secion {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/background/inner-banner-bg.png":
+/*!*******************************************************************!*\
+  !*** ./resources/js/assets/images/background/inner-banner-bg.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/inner-banner-bg.png?67f456f84de9af4d1e3682f1c160368c";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/shapes/blog-shape-1-1.png":
+/*!**************************************************************!*\
+  !*** ./resources/js/assets/images/shapes/blog-shape-1-1.png ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blog-shape-1-1.png?cafdb723e89d81356ba0ec3bc16e6212";
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Auth/index.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/Views/Auth/index.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _func_async__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../func/async */ "./resources/js/func/async/index.js");
+/* harmony import */ var _Base_Anim__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Base/Anim */ "./resources/js/components/Base/Anim/index.js");
+/* harmony import */ var _redux_hooks__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../redux/hooks */ "./resources/js/redux/hooks.js");
+
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useMergeState = Object(_redux_hooks__WEBPACK_IMPORTED_MODULE_5__["useMergeState"])({
+    loginView: true,
+    loading: false
+  }),
+      _useMergeState2 = _slicedToArray(_useMergeState, 2),
+      state = _useMergeState2[0],
+      setState = _useMergeState2[1];
+
+  var loginView = state.loginView,
+      loading = state.loading,
+      name = state.name,
+      email = state.email,
+      password = state.password,
+      password_confirmation = state.password_confirmation;
+
+  var handleToggle = function handleToggle() {
+    return setState({
+      loginView: !loginView
+    });
+  };
+
+  var submit = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(e) {
+      var query, _yield$query, status, message;
+
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              e.preventDefault();
+              query = loginView ? _func_async__WEBPACK_IMPORTED_MODULE_3__["login"] : _func_async__WEBPACK_IMPORTED_MODULE_3__["register"];
+              _context.prev = 2;
+              setState({
+                loading: true
+              });
+              _context.next = 6;
+              return query({
+                password_confirmation: password_confirmation,
+                name: name,
+                email: email,
+                password: password
+              });
+
+            case 6:
+              _yield$query = _context.sent;
+              status = _yield$query.status;
+              message = _yield$query.message;
+              _context.next = 13;
+              break;
+
+            case 11:
+              _context.prev = 11;
+              _context.t0 = _context["catch"](2);
+
+            case 13:
+              _context.prev = 13;
+              setState({
+                loading: false
+              });
+              return _context.finish(13);
+
+            case 16:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee, null, [[2, 11, 13, 16]]);
+    }));
+
+    return function submit(_x) {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  var changeInput = function changeInput(_ref2) {
+    var target = _ref2.target;
+    var name = target.name,
+        value = target.value;
+    setState(_defineProperty({}, name, value));
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    className: "blog-one",
+    id: "blog"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../../assets/images/shapes/blog-shape-1-1.png */ "./resources/js/assets/images/shapes/blog-shape-1-1.png"),
+    alt: "",
+    className: "blog-one__shape-1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-title text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "block-title__bubbles"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Authenticate"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Login or Signup Account"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "row d-flex align-items-center justify-content-center pricing-one list-inline text-center switch-toggler-list",
+    role: "tablist",
+    id: "switch-toggle-tab"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " Login "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    className: loginView ? 'switch on' : 'switch off'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    onClick: handleToggle,
+    className: "slider round"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, " Signup ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+    className: "contact-form-validated contact-one__form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "row"
+  }, !loginView && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    onChange: changeInput,
+    type: "text",
+    name: "name",
+    placeholder: "Name"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    onChange: changeInput,
+    type: "email",
+    name: "email",
+    placeholder: "Email"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    onChange: changeInput,
+    type: "password",
+    name: "password",
+    placeholder: "Password"
+  })), !loginView && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    onChange: changeInput,
+    type: "password",
+    name: "password_confirmation",
+    placeholder: "Confirm Password"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-md-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    disabled: loading,
+    onClick: submit,
+    className: "thm-btn contact-one__form-btn"
+  }, loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Base_Anim__WEBPACK_IMPORTED_MODULE_4__["Loading"], null) : loginView ? 'Login' : 'Signup')))))));
+});
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/PageHeader.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/Views/Home/PageHeader.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./resources/js/components/Views/Home/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var PageHeader = function PageHeader(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "page-header-secion",
+    className: "page-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "list-unstyled thm-breadcrumb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/"
+  }, "Home /")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "active"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, props.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "inner-banner__title"
+  }, props.title))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PageHeader);
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Home/style.css":
+/*!******************************************************!*\
+  !*** ./resources/js/components/Views/Home/style.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Views/Home/style.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Views/Layout.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Views/Layout.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Home_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home/Navbar */ "./resources/js/components/Views/Home/Navbar.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "page-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), props.children);
+});
+
+/***/ }),
+
+/***/ "./resources/js/views/Auth/index.js":
+/*!******************************************!*\
+  !*** ./resources/js/views/Auth/index.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Views_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Views/Layout */ "./resources/js/components/Views/Layout.js");
+/* harmony import */ var _components_Views_Auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Views/Auth */ "./resources/js/components/Views/Auth/index.js");
+/* harmony import */ var _components_Views_Home_PageHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Views/Home/PageHeader */ "./resources/js/components/Views/Home/PageHeader.js");
+/* harmony import */ var _components_Views_Home_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Views/Home/Footer */ "./resources/js/components/Views/Home/Footer.js");
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    pageTitle: "Zimed | Blog"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_PageHeader__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Login"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Auth__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_Home_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+});
+
+/***/ })
+
+}]);
