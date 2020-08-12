@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Booking extends Model
 {
-  protected $fillable = ['user_id', 'service_id', 'package_id', 'address', 'note', 'status'];
+  protected $fillable = [ 'service_id', 'interval_id', 'location_id', 'status'];
 
   public function getAmount()
   {
@@ -23,23 +23,13 @@ class Booking extends Model
     return $this->belongsTo(Service::class);
   }
 
-  public function package()
-  {
-    return $this->belongsTo(Package::class);
-  }
-
   public function location()
   {
     return $this->belongsTo(Location::class);
   }
 
-  public function car()
+  public function interval()
   {
-    return $this->belongsTo(Car::class);
-  }
-
-  public function user()
-  {
-    return $this->belongsTo(User::class);
+    return $this->belongsTo(Interval::class);
   }
 }
