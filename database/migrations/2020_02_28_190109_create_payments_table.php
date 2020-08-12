@@ -17,7 +17,7 @@ class CreatePaymentsTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('booking_id')->unsigned();
             $table->string('access_code')->unique();
-            $table->string('reference');
+            $table->string('reference')->index();
             $table->decimal('amount', 9,3);
             $table->string('status', 10)->default('pending');
             $table->string('message')->nullable();
@@ -25,9 +25,6 @@ class CreatePaymentsTable extends Migration
             $table->string('currency_code')->nullable();
             $table->timestamp('paid_at')->nullable();
             $table->timestamps();
-        });
-
-        Schema::table('payments', function (Blueprint $table) {
             $table->foreign('booking_id')->references('id')->on('bookings')->onDelete('cascade');
         });
     }

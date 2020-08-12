@@ -16,7 +16,7 @@ class CreateMetasTable extends Migration
         Schema::create('metas', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->morphs('metable');
-            $table->string('name', 30);
+            $table->string('name', 30)->index();
             $table->string('value');
             $table->timestamps();
         });
