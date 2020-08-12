@@ -14,15 +14,10 @@ class CreateSchedulesTable extends Migration
     public function up()
     {
         Schema::create('schedules', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->bigInteger('booking_id')->unsigned();
-            $table->enum('period', ['morning', 'noon', 'evening']);
-            $table->date('start_at');
-            $table->time('time_at');
-            $table->timestamps();
-        });
-
-        Schema::table('schedules', function (Blueprint $table) {
+          $table->bigIncrements('id');
+          $table->bigInteger('booking_id')->unsigned();
+          $table->dateTime('start_at');
+          $table->timestamps();
           $table->foreign('booking_id')->references('id')->on('bookings')->onDelete('cascade');
         });
     }
