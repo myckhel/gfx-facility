@@ -20,10 +20,7 @@ class CreateServicesTable extends Migration
             $table->string('description')->nullable();
             $table->decimal('amount', 10,2)->nullable();
             $table->timestamps();
-        });
-
-        Schema::table('services', function (Blueprint $table) {
-          $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');
+            $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');
         });
     }
 
