@@ -12,9 +12,18 @@ class LocationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+      $this->validatePagination($request, [
+
+      ]);
+
+      $user           = $request->user();
+      $search         = $request->search;
+      $orderBy        = $request->orderBy;
+      $pageSize       = $request->pageSize;
+
+      return $user->locations()->search($search)->paginate($pageSize);
     }
 
     /**
@@ -35,7 +44,23 @@ class LocationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $request->validate([
+        'user_id'   => 'int|nullable',
+        'address'   => 'required',
+        'state'     => 'required',
+        'city'      => 'required',
+        'notes'     => ''
+      ]);
+
+      $user = $request->user('api');
+
+      return Location::create([
+        'user_id'  => $user ? $user->id : $request->user_id,
+        'address'  => $request->address,
+        'state'    => $request->state,
+        'city'     => $request->city,
+        'notes'    => $request->notes,
+      ]);
     }
 
     /**
@@ -46,7 +71,7 @@ class LocationController extends Controller
      */
     public function show(Location $location)
     {
-        //
+      return $location;
     }
 
     /**
@@ -69,7 +94,15 @@ class LocationController extends Controller
      */
     public function update(Request $request, Location $location)
     {
-        //
+      $request->validate([
+        'address'   => '',
+        'state'     => '',
+        'city'      => '',
+        'notes'     => ''
+      ]);
+
+      $location->update($request->all());
+      return $location;
     }
 
     /**
@@ -80,6 +113,12 @@ class LocationController extends Controller
      */
     public function destroy(Location $location)
     {
-        //
+      if ($location->bookings()->first()) {
+        $location->delete();
+      } else {
+        $location->forceDelete();
+      }
+
+      return ['status' => true];
     }
 }

@@ -19,7 +19,8 @@ class CreateLocationsTable extends Migration
             $table->string('address');
             $table->string('state', 50);
             $table->string('city', 50);
-            $table->text('notes');
+            $table->text('notes')->nullable();
+            $table->softDeletes();
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
