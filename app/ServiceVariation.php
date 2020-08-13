@@ -8,6 +8,7 @@ use App\Service;
 class ServiceVariation extends Model
 {
   protected $fillable = [ 'service_id', 'variation_id', 'value', 'amount'];
+  protected $casts    = [ 'amount' => 'float'];
 
   public function service()
   {

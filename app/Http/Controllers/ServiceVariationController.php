@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Service;
+use App\Variation;
 use App\ServiceVariation;
 use Illuminate\Http\Request;
 
@@ -14,7 +16,7 @@ class ServiceVariationController extends Controller
      */
     public function index()
     {
-        //
+      return ServiceVariation::with(['variation', 'service'])->get();
     }
 
     /**
@@ -35,7 +37,22 @@ class ServiceVariationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $request->validate([
+        'service_id'    => 'required|int',
+        'variation_id'  => 'required|int',
+        'value'         => 'required',
+        'amount'        => 'numeric',
+      ]);
+
+      $service          = Service::findOrFail($request->service_id);
+      Variation::findOrFail($request->variation_id);
+
+      return $service->variations()->create([
+        'service_id'      => $request->service_id,
+        'variation_id'    => $request->variation_id,
+        'value'           => $request->value,
+        'amount'          => $request->amount,
+      ]);
     }
 
     /**
@@ -46,7 +63,7 @@ class ServiceVariationController extends Controller
      */
     public function show(ServiceVariation $serviceVariation)
     {
-        //
+      return $serviceVariation->load(['service', 'variation']);
     }
 
     /**
@@ -69,7 +86,18 @@ class ServiceVariationController extends Controller
      */
     public function update(Request $request, ServiceVariation $serviceVariation)
     {
-        //
+      $request->validate([
+        'service_id'    => 'int',
+        'variation_id'  => 'int',
+        'value'         => '',
+        'amount'        => 'numeric',
+      ]);
+
+      $request->service_id && Service::findOrFail($request->service_id);
+      $request->variation_id && Variation::findOrFail($request->variation_id);
+
+      $serviceVariation->update($request->all());
+      return $serviceVariation;
     }
 
     /**
@@ -80,6 +108,7 @@ class ServiceVariationController extends Controller
      */
     public function destroy(ServiceVariation $serviceVariation)
     {
-        //
+      $serviceVariation->delete();
+      return ['status' => true];
     }
 }
