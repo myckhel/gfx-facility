@@ -25,6 +25,7 @@ Route::group(['middleware' => 'guest'], function () {
 });
 
 Route::post('/locations', 'LocationController@store');
+Route::resource('intervals', 'IntervalController')->only(['index', 'show']);
 
 Route::group(['middleware' => 'auth:api'], function () {
   Route::get('whoami', fn (Request $request) => $request->user());
@@ -34,5 +35,15 @@ Route::group(['middleware' => 'auth:api'], function () {
   Route::apiResources([
     'metas'           => 'MetaController',
     'medias'          => 'MediaController',
+  ]);
+});
+
+Route::group([], function () {
+  // Route::get('whoami', fn (Request $request) => $request->user());
+  // Route::get('logout', 'Auth\LoginController@logout');
+
+  Route::resource('intervals', 'IntervalController')->only(['store', 'update', 'destroy']);
+  Route::apiResources([
+    // 'intervals'          => 'IntervalController',
   ]);
 });

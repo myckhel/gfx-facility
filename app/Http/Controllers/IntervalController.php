@@ -12,9 +12,17 @@ class IntervalController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+      $this->validatePagination($request, [
+
+      ]);
+
+      $search         = $request->search;
+      $orderBy        = $request->orderBy;
+      $pageSize       = $request->pageSize;
+
+      return Interval::search($search)->paginate($pageSize);
     }
 
     /**
@@ -35,7 +43,15 @@ class IntervalController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $request->validate([
+        'name'      => 'required',
+        'quantity'  => 'required|int',
+      ]);
+
+      return Interval::create([
+        'name'      => $request->name,
+        'quantity'  => $request->quantity,
+      ]);
     }
 
     /**
@@ -46,7 +62,7 @@ class IntervalController extends Controller
      */
     public function show(Interval $interval)
     {
-        //
+      return $interval;
     }
 
     /**
@@ -69,7 +85,13 @@ class IntervalController extends Controller
      */
     public function update(Request $request, Interval $interval)
     {
-        //
+      $request->validate([
+        'name'      => '',
+        'quantity'  => 'int',
+      ]);
+
+      $interval->update($request->all());
+      return $interval;
     }
 
     /**
@@ -80,6 +102,12 @@ class IntervalController extends Controller
      */
     public function destroy(Interval $interval)
     {
-        //
+      if ($interval->bookings()->first()) {
+        $interval->delete();
+      } else {
+        $interval->forceDelete();
+      }
+      
+      return ['status' => true];
     }
 }
