@@ -12,9 +12,17 @@ class VariationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+      $this->validatePagination($request, [
+
+      ]);
+
+      $search         = $request->search;
+      $orderBy        = $request->orderBy;
+      $pageSize       = $request->pageSize;
+
+      return Variation::search($search)->paginate($pageSize);
     }
 
     /**
@@ -35,7 +43,13 @@ class VariationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $request->validate([
+        'name'      => 'required',
+      ]);
+
+      return Variation::create([
+        'name'      => $request->name,
+      ]);
     }
 
     /**
@@ -46,7 +60,7 @@ class VariationController extends Controller
      */
     public function show(Variation $variation)
     {
-        //
+      return $variation;
     }
 
     /**
@@ -69,7 +83,12 @@ class VariationController extends Controller
      */
     public function update(Request $request, Variation $variation)
     {
-        //
+      $request->validate([
+        'name'      => '',
+      ]);
+
+      $variation->update($request->all());
+      return $variation;
     }
 
     /**
@@ -80,6 +99,12 @@ class VariationController extends Controller
      */
     public function destroy(Variation $variation)
     {
-        //
+      if ($variation->service_variations()->first()) {
+        $variation->delete();
+      } else {
+        $variation->forceDelete();
+      }
+
+      return ['status' => true];
     }
 }

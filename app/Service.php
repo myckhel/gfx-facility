@@ -23,4 +23,9 @@ class Service extends Model
   {
     return $this->hasMany(Booking::class);
   }
+
+  public function variations()
+  {
+    return $this->hasMany(ServiceVariation::class);
+  }
 }

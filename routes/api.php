@@ -27,6 +27,8 @@ Route::group(['middleware' => 'guest'], function () {
 Route::post('/locations',     'LocationController@store');
 Route::resource('intervals',  'IntervalController')->only(['index', 'show']);
 Route::resource('services',   'ServiceController')->only(['index', 'show']);
+Route::resource('variations', 'VariationController')->only(['index', 'show']);
+Route::resource('service_variations', 'ServiceVariationController')->only(['index', 'show']);
 
 Route::group(['middleware' => 'auth:api'], function () {
   Route::get('whoami', fn (Request $request) => $request->user());
@@ -45,6 +47,8 @@ Route::group([], function () {
 
   Route::resource('intervals',  'IntervalController')->only(['store', 'update', 'destroy']);
   Route::resource('services',   'ServiceController')->only(['store', 'update', 'destroy']);
+  Route::resource('variations', 'VariationController')->only(['store', 'update', 'destroy']);
+  Route::resource('service_variations', 'ServiceVariationController')->only(['store', 'update', 'destroy']);
   Route::apiResources([
     // 'intervals'          => 'IntervalController',
   ]);
