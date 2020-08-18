@@ -15,11 +15,13 @@ class CreateBookingsTable extends Migration
     {
       Schema::create('bookings', function (Blueprint $table) {
           $table->bigIncrements('id');
+          $table->bigInteger('user_id')->unsigned()->nullable();
           $table->bigInteger('service_id')->unsigned()->nullable();
           $table->bigInteger('interval_id')->unsigned()->nullable();
           $table->bigInteger('location_id')->unsigned()->nullable();
           $table->enum('status', ['pending', 'accepted', 'rejected', 'canceled', 'completed'])->default('pending');
           $table->timestamps();
+          $table->foreign('user_id')->references('id')->on('users')->onDelete('set null');
           $table->foreign('service_id')->references('id')->on('services')->onDelete('set null');
           $table->foreign('interval_id')->references('id')->on('intervals')->onDelete('cascade');
           $table->foreign('location_id')->references('id')->on('locations')->onDelete('set null');

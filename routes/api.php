@@ -24,11 +24,13 @@ Route::group(['middleware' => 'guest'], function () {
 
 });
 
-Route::post('/locations',     'LocationController@store');
-Route::resource('intervals',  'IntervalController')->only(['index', 'show']);
-Route::resource('services',   'ServiceController')->only(['index', 'show']);
-Route::resource('variations', 'VariationController')->only(['index', 'show']);
-Route::resource('service_variations', 'ServiceVariationController')->only(['index', 'show']);
+Route::post('/locations',                   'LocationController@store');
+Route::resource('intervals',                'IntervalController')->only(['index', 'show']);
+Route::resource('services',                 'ServiceController')->only(['index', 'show']);
+Route::resource('variations',               'VariationController')->only(['index', 'show']);
+Route::resource('service_variations',       'ServiceVariationController')->only(['index', 'show']);
+Route::resource('booking_service_variations', 'BookingServiceVariationController');
+Route::resource('bookings',                 'BookingController');
 
 Route::group(['middleware' => 'auth:api'], function () {
   Route::get('whoami', fn (Request $request) => $request->user());

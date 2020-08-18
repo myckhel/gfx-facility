@@ -42,6 +42,11 @@ class User extends Authenticatable implements HasMedia
       return $this->hasMany(Booking::class);
     }
 
+    public function booking_service_variations()
+    {
+      return $this->hasManyThrough(BookingServiceVariation::class, Booking::class);
+    }
+
     public function payments()
     {
       return $this->hasManyThrough(Payment::class, Booking::class);

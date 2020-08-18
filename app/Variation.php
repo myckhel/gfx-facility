@@ -11,10 +11,15 @@ class Variation extends Model
   use Searchable;
 
   protected $fillable = [ 'name'];
-  protected $casts    = [ 'name'];
+  // protected $casts    = [ 'name'];
 
   public function service_variations()
   {
     return $this->hasMany(ServiceVariation::class);
+  }
+
+  public function booking_services()
+  {
+    return $this->hasMany(BookingServiceVariation::class);
   }
 }

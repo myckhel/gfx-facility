@@ -18,9 +18,19 @@ class Booking extends Model
     return $this->hasOne(Schedule::class);
   }
 
+  public function variations()
+  {
+    return $this->hasMany(BookingServiceVariation::class);
+  }
+
   public function service()
   {
     return $this->belongsTo(Service::class);
+  }
+
+  public function user()
+  {
+    return $this->belongsTo(User::class);
   }
 
   public function location()
