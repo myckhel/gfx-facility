@@ -12,6 +12,11 @@ class Payment extends Model
     return $this->belongsTo(Booking::class);
   }
 
+  public function works()
+  {
+    return $this->hasMany(Work::class);
+  }
+
   public function user(){
     return $this->booking->user;
   }

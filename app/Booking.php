@@ -23,6 +23,11 @@ class Booking extends Model
     return $this->hasMany(BookingServiceVariation::class);
   }
 
+  public function works()
+  {
+    return $this->hasMany(Work::class);
+  }
+
   public function service()
   {
     return $this->belongsTo(Service::class);
