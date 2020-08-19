@@ -14,9 +14,19 @@ class PaymentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+      $this->validatePagination($request, [
+
+      ]);
+
+      $search         = $request->search;
+      $orderBy        = $request->orderBy;
+      $pageSize       = $request->pageSize;
+
+      $user = $request->user('api');
+
+      return $user->payments()->with(['booking'])->paginate($pageSize);
     }
 
     /**
@@ -91,7 +101,7 @@ class PaymentController extends Controller
      */
     public function show(Payment $payment)
     {
-        //
+      return $payment->load(['booking']);
     }
 
     /**
