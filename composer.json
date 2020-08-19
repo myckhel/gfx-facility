@@ -17,7 +17,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "spatie/laravel-medialibrary": "^8.3",
-        "xeviant/laravel-paystack": "^1.5"
+        "unicodeveloper/laravel-paystack": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

@@ -8,6 +8,12 @@ class Booking extends Model
 {
   protected $fillable = [ 'service_id', 'interval_id', 'location_id', 'status'];
 
+  public function getPaymentAmount()
+  {
+    // temp
+    return $this->service->amount;
+  }
+
   public function getAmount()
   {
     return $this->service->amount;
@@ -26,6 +32,11 @@ class Booking extends Model
   public function works()
   {
     return $this->hasMany(Work::class);
+  }
+
+  public function payments()
+  {
+    return $this->hasMany(Payment::class);
   }
 
   public function service()

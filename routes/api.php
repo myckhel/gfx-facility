@@ -31,6 +31,8 @@ Route::resource('variations',               'VariationController')->only(['index
 Route::resource('service_variations',       'ServiceVariationController')->only(['index', 'show']);
 Route::resource('booking_service_variations', 'BookingServiceVariationController');
 Route::resource('bookings',                 'BookingController');
+Route::resource('payments',                 'PaymentController');
+Route::post('payments/verify',              'PaymentController@verify');
 
 Route::group(['middleware' => 'auth:api'], function () {
   Route::get('whoami', fn (Request $request) => $request->user());

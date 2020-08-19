@@ -8,6 +8,9 @@ use Laravel\Passport\Console\ClientCommand;
 use Laravel\Passport\Console\InstallCommand;
 use Laravel\Passport\Console\KeysCommand;
 
+use App\Observers\PaymentObserver;
+use App\Payment;
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -27,6 +30,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+      Payment::observe(PaymentObserver::class);
+
       $this->commands([
         InstallCommand::class,
         ClientCommand::class,
