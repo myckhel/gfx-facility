@@ -14,7 +14,8 @@ class ServiceController extends Controller
      */
     public function index()
     {
-      return Service::whereDoesntHave('service')->with('services')->get();
+      return Service::whereDoesntHave('service')
+      ->with(['services', 'variations.variation'])->get();
     }
 
     /**
