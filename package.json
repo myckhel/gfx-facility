@@ -35,7 +35,7 @@
         "@babel/preset-react": "^7.0.0",
         "axios": "^0.21",
         "bootstrap": "^4.3.1",
-        "browser-sync": "^2.27.11",
+        "browser-sync": "^2.27.12",
         "browser-sync-webpack-plugin": "2.0.1",
         "cross-env": "^7.0",
         "css-loader": "^3.5.3",
